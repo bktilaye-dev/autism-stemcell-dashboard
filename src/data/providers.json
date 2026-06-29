@@ -1058,5 +1058,83 @@
       "email": ""
     },
     "dataLastVerified": "2026-06-29"
+  },
+  {
+    "id": "regenamex-mexico",
+    "name": "Regenamex",
+    "overview": "Regenamex is a regenerative medicine clinic founded in 2016 with primary operations in Puerto Vallarta and a second location in Tijuana, Mexico. They use allogeneic Wharton's Jelly MSCs and placental MSCs supplied by CBCells Biotechnology, which claims COFEPRIS (Mexico's federal health regulator) authorization and GMP manufacturing. The clinic is notable for celebrity endorser Ronnie Coleman — 8-time Mr. Olympia winner — who publicly promotes receiving infusions every four months. The autism protocol is individualized; no standard session count or dosing protocol is published. No peer-reviewed publications or clinical trial registrations exist for Regenamex's autism outcomes. All benefit claims are anecdotal. The clinic explicitly states stem cell therapy 'doesn't eliminate autism' but reports parent-observed improvements in attention, vocabulary, eye contact, and behavior at 3–6 months post-treatment.",
+    "location": {
+      "country": "Mexico",
+      "countryCode": "MX",
+      "city": "Puerto Vallarta",
+      "coordinates": { "lat": 20.6444, "lng": -105.2285 }
+    },
+    "cellTypes": ["umbilical_cord_msc", "placental", "exosomes", "MUSE_dezawa"],
+    "deliveryRoutes": ["iv", "intrathecal"],
+    "cellSource": "allogeneic",
+    "humanCellsOnly": true,
+    "effectiveness": {
+      "communication": { "score": 5.5, "confidence": "low", "source": "provider_report", "notes": "Clinic reports 'longer attention spans, increased vocabulary, greater eye contact' — no quantitative scale data published; improvements typically observed at 3–6 months" },
+      "socialSkills":  { "score": 5.5, "confidence": "low", "source": "provider_report", "notes": "Clinic reports improvements in social engagement and emotional regulation; no CARS or ATEC scores published" },
+      "behavior":      { "score": 5.5, "confidence": "low", "source": "provider_report", "notes": "Clinic reports 'reduced repetitive or aggressive behaviors, better sleep patterns'" },
+      "selfCare":      { "score": 4.5, "confidence": "none", "source": "unknown", "notes": "No self-care outcome data published" }
+    },
+    "evidence": {
+      "gradeLevel": "very_low",
+      "studyDesign": "anecdotal",
+      "publications": [],
+      "clinicalTrials": []
+    },
+    "testimonials": {
+      "aggregateRating": 4.9,
+      "totalReviews": 111,
+      "ratingBreakdown": { "5": 105, "4": 4, "3": 1, "2": 1, "1": 0 },
+      "featured": [
+        {
+          "rating": 5,
+          "text": "I've been receiving stem cell injections at Regenamex every four months, and the results have been remarkable.",
+          "date": "2024-06-01",
+          "verified": true,
+          "domainsImproved": []
+        },
+        {
+          "rating": 5,
+          "text": "The stems were shown to us microscopically so I know they are going to be effective! Very professional team.",
+          "date": "2024-03-10",
+          "verified": true,
+          "domainsImproved": []
+        }
+      ],
+      "externalUrl": "https://regenamex.com/testimonials/"
+    },
+    "cost": {
+      "minUSD": 2500,
+      "maxUSD": 10500,
+      "includesAccommodation": false,
+      "sessionRange": { "min": 1, "max": 3 },
+      "notes": "All-inclusive pricing covering consultation, high-dose MSCs, and follow-up. $3,500 cited for a 100M cell dose. Autism-specific protocol price finalized after individual consultation. Clinic claims 50–70% savings vs. US equivalents ($15,000–$35,000)."
+    },
+    "coa": {
+      "level": "claimed",
+      "labCertifications": ["COFEPRIS Licensed (claimed)", "GMP (claimed)"],
+      "patientDocuments": ["Cells shown microscopically on request"],
+      "independentlyVerified": false,
+      "notes": "Cells supplied by CBCells Biotechnology, which Regenamex describes as 'authorized by the Mexican Health Ministry (COFEPRIS)' and operating under GMP conditions. However, CBCells' own website is inaccessible (401 error), no ISO certificate number or independent GMP audit is published, and no formal Certificate of Analysis is documented for patient distribution. One reviewer noted cells were shown microscopically at the clinic. COFEPRIS authorization is clinic-claimed but cannot be independently verified at this time."
+    },
+    "museCellClaim": {
+      "status": "no_license_found",
+      "licenseVerified": false,
+      "verificationSource": "https://regenamex.com/muse-cells/",
+      "notes": "Regenamex actively markets MUSE cells, featuring bodybuilder Ronnie Coleman as an endorser. No license from Tohoku University, Life Science Institute, or MuseCell Innovations (MCI) has been found. Regenamex is not listed in any MCI authorized provider registry, and their supplier CBCells Biotechnology is not identified as an MCI-authorized manufacturer. This follows the pattern MCI warns against: isolating SSEA-3+ subpopulations from MSC preparations and labeling them MUSE cells without authorization or verified characterization."
+    },
+    "patientsTotal": 0,
+    "autismPatientCount": 0,
+    "yearsOperating": 9,
+    "contact": {
+      "website": "https://regenamex.com",
+      "email": "info@regenamex.com",
+      "phone": "+1-855-926-0897"
+    },
+    "dataLastVerified": "2026-06-29"
   }
 ]
