@@ -46,12 +46,13 @@ function Dashboard() {
           <h1 className="text-xl font-bold text-gray-900">Stem Cell Therapy for Autism</h1>
           <p className="text-xs text-gray-500">Global provider comparison · Human stem cells only</p>
         </div>
-        <div className="flex items-center gap-4">
+        <div className="flex items-center gap-6">
           <div className="flex gap-4 text-sm text-gray-500">
             <span><span className="font-semibold text-gray-800">{providers.length}</span> providers</span>
             <span><span className="font-semibold text-gray-800">{new Set(providers.map((p) => p.location.country)).size}</span> countries</span>
             <span><span className="font-semibold text-gray-800">{filtered.length}</span> visible</span>
           </div>
+          <span className="text-xs font-semibold tracking-widest text-blue-400 uppercase select-none">Made by Noah's Dad</span>
           <a
             href="/admin"
             className="px-3 py-1.5 text-sm bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-medium"
@@ -137,6 +138,12 @@ function Dashboard() {
           </div>
         </div>
       </div>
+
+      {/* Footer */}
+      <footer className="shrink-0 bg-white border-t border-gray-200 px-5 py-2 flex items-center justify-between">
+        <p className="text-xs text-gray-400">Personal research tool · Data sourced from public clinical records, provider websites, and peer-reviewed literature · Verify all information directly with providers before making medical decisions</p>
+        <p className="text-xs font-bold tracking-widest text-blue-500 uppercase">Made by Noah's Dad</p>
+      </footer>
 
       {/* Detail Drawer */}
       {activeProvider && <ProviderDetail provider={activeProvider} />}
