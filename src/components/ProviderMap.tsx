@@ -79,7 +79,6 @@ export function ProviderMap({ providers }: Props) {
                   }
                 }}
                 onMouseLeave={() => setTooltip(null)}
-                style={{ cursor: 'pointer' }}
               >
                 <circle
                   r={isSelected ? 8 : 6}
@@ -87,6 +86,7 @@ export function ProviderMap({ providers }: Props) {
                   stroke="#fff"
                   strokeWidth={isSelected ? 2.5 : 1.5}
                   opacity={0.9}
+                  style={{ cursor: 'pointer' }}
                 />
                 {isSelected && (
                   <circle r={12} fill="none" stroke={color} strokeWidth={2} opacity={0.4} />
