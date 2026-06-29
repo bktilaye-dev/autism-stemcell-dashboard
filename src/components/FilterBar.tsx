@@ -51,8 +51,8 @@ export function FilterBar({ providers }: Props) {
     filters.search !== ''
 
   return (
-    <div className="bg-white border-b border-gray-200 px-4 py-3">
-      <div className="flex flex-wrap gap-2 items-end">
+    <div className="bg-white border-b border-gray-200 px-4 py-3 overflow-x-auto">
+      <div className="flex gap-2 items-end min-w-max sm:flex-wrap sm:min-w-0">
         <div className="flex flex-col gap-1">
           <label className="text-xs text-gray-500 font-medium">Search</label>
           <input

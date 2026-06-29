@@ -32,10 +32,11 @@ const MUSE_STATUS_CONFIG: Record<MuseClaimStatus, { label: string; bg: string; t
 }
 
 function MuseClaimCell({ claim }: { claim: MuseCellClaim | undefined }) {
+  const [expanded, setExpanded] = useState(false)
   if (!claim) return <span className="text-gray-300 text-xs">—</span>
   const cfg = MUSE_STATUS_CONFIG[claim.status]
   return (
-    <div className="space-y-1 min-w-[140px]">
+    <div className="space-y-1 min-w-[160px] max-w-[240px]">
       <span className={`inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-xs font-semibold ${cfg.bg} ${cfg.text}`}>
         <span>{cfg.icon}</span>
         {cfg.label}
@@ -53,7 +54,17 @@ function MuseClaimCell({ claim }: { claim: MuseCellClaim | undefined }) {
           Source ↗
         </a>
       )}
-      <p className="text-xs text-gray-600 leading-snug max-w-[220px]">{claim.notes}</p>
+      <div>
+        <p className={`text-xs text-gray-600 leading-snug ${expanded ? '' : 'line-clamp-3'}`}>
+          {claim.notes}
+        </p>
+        <button
+          onClick={() => setExpanded(e => !e)}
+          className="text-xs text-blue-500 hover:text-blue-700 mt-0.5 font-medium"
+        >
+          {expanded ? 'Show less ↑' : 'Show more ↓'}
+        </button>
+      </div>
     </div>
   )
 }
@@ -193,6 +204,7 @@ export function ProviderTable({ providers, allProviders }: Props) {
       col.accessor((p) => p.deliveryRoutes[0], {
         id: 'route',
         header: 'Delivery',
+        meta: { className: 'hidden sm:table-cell' },
         cell: ({ row }) => (
           <div className="flex flex-wrap gap-1">
             {row.original.deliveryRoutes.map((r) => <RouteBadge key={r} route={r} />)}
@@ -202,6 +214,7 @@ export function ProviderTable({ providers, allProviders }: Props) {
       col.accessor(computeOverall, {
         id: 'effectiveness',
         header: 'Effectiveness',
+        meta: { className: 'hidden md:table-cell' },
         cell: ({ getValue, row }) => {
           const score = getValue()
           const p = row.original
@@ -227,6 +240,7 @@ export function ProviderTable({ providers, allProviders }: Props) {
       col.accessor((p) => coaScore(p.coa) ?? -1, {
         id: 'coa',
         header: 'Auth. Score',
+        meta: { className: 'hidden md:table-cell' },
         cell: ({ row }) => {
           const score = coaScore(row.original.coa)
           return (
@@ -250,6 +264,7 @@ export function ProviderTable({ providers, allProviders }: Props) {
       col.accessor((p) => p.museCellClaim?.status ?? '', {
         id: 'museClaim',
         header: 'MUSE Cell Claim',
+        meta: { className: 'hidden lg:table-cell' },
         cell: ({ row }) => <MuseClaimCell claim={row.original.museCellClaim} />,
       }),
       col.accessor((p) => p.cost.minUSD, {
@@ -313,7 +328,7 @@ export function ProviderTable({ providers, allProviders }: Props) {
                 {hg.headers.map((header) => (
                   <th
                     key={header.id}
-                    className="text-left px-3 py-2.5 text-xs font-semibold text-gray-500 uppercase tracking-wide whitespace-nowrap select-none"
+                    className={`text-left px-3 py-2.5 text-xs font-semibold text-gray-500 uppercase tracking-wide whitespace-nowrap select-none ${(header.column.columnDef.meta as any)?.className ?? ''}`}
                     style={{ width: header.getSize() }}
                     onClick={header.column.getToggleSortingHandler()}
                   >
@@ -340,7 +355,7 @@ export function ProviderTable({ providers, allProviders }: Props) {
                 return (
                   <tr key={row.id} className={`hover:bg-gray-50 transition-colors ${isSelected ? 'bg-blue-50' : ''}`}>
                     {row.getVisibleCells().map((cell) => (
-                      <td key={cell.id} className="px-3 py-3 align-top">
+                      <td key={cell.id} className={`px-3 py-3 align-top ${(cell.column.columnDef.meta as any)?.className ?? ''}`}>
                         {flexRender(cell.column.columnDef.cell, cell.getContext())}
                       </td>
                     ))}

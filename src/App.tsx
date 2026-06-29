@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import { useMemo } from 'react'
+import { useMemo, useState } from 'react'
 import { FilterBar } from './components/FilterBar'
 import { ProviderTable } from './components/ProviderTable'
 import { ProviderMap } from './components/ProviderMap'
@@ -37,25 +37,26 @@ function Dashboard() {
   )
 
   const activeProvider = activeDetailId ? providers.find((p) => p.id === activeDetailId) : null
+  const [mobileTab, setMobileTab] = useState<'list' | 'visual'>('list')
 
   return (
     <div className="h-screen flex flex-col bg-gray-50 overflow-hidden">
       {/* Header */}
-      <header className="bg-white border-b border-gray-200 px-5 py-3 flex items-center justify-between shrink-0">
-        <div>
-          <h1 className="text-xl font-bold text-gray-900">Stem Cell Therapy for Autism</h1>
-          <p className="text-xs text-gray-500">Global provider comparison · Human stem cells only</p>
+      <header className="bg-white border-b border-gray-200 px-4 py-2.5 flex items-center justify-between shrink-0 gap-3">
+        <div className="min-w-0">
+          <h1 className="text-base sm:text-xl font-bold text-gray-900 leading-tight truncate">Stem Cell Therapy for Autism</h1>
+          <p className="text-xs text-gray-500 hidden sm:block">Global provider comparison · Human stem cells only</p>
         </div>
-        <div className="flex items-center gap-6">
-          <div className="flex gap-4 text-sm text-gray-500">
+        <div className="flex items-center gap-2 sm:gap-4 shrink-0">
+          <div className="hidden md:flex gap-3 text-sm text-gray-500">
             <span><span className="font-semibold text-gray-800">{providers.length}</span> providers</span>
             <span><span className="font-semibold text-gray-800">{new Set(providers.map((p) => p.location.country)).size}</span> countries</span>
             <span><span className="font-semibold text-gray-800">{filtered.length}</span> visible</span>
           </div>
-          <span className="text-xs font-semibold tracking-widest text-blue-400 uppercase select-none">Made by Noah's Dad</span>
+          <span className="text-xs font-bold tracking-widest text-blue-400 uppercase select-none hidden sm:inline">Made by Noah's Dad</span>
           <a
             href="/admin"
-            className="px-3 py-1.5 text-sm bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-medium"
+            className="px-2.5 py-1.5 text-xs sm:text-sm bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-medium whitespace-nowrap"
           >
             + Add Provider
           </a>
@@ -65,15 +66,31 @@ function Dashboard() {
       {/* Filter Bar */}
       <FilterBar providers={providers} />
 
+      {/* Mobile tab bar */}
+      <div className="lg:hidden flex shrink-0 bg-white border-b border-gray-200">
+        <button
+          onClick={() => setMobileTab('list')}
+          className={`flex-1 py-2 text-sm font-medium transition-colors ${mobileTab === 'list' ? 'text-blue-600 border-b-2 border-blue-600' : 'text-gray-500'}`}
+        >
+          📋 Providers
+        </button>
+        <button
+          onClick={() => setMobileTab('visual')}
+          className={`flex-1 py-2 text-sm font-medium transition-colors ${mobileTab === 'visual' ? 'text-blue-600 border-b-2 border-blue-600' : 'text-gray-500'}`}
+        >
+          🗺 Map &amp; Charts
+        </button>
+      </div>
+
       {/* Main Content */}
       <div className="flex-1 flex overflow-hidden">
-        {/* Left: Table */}
-        <div className="flex-1 flex flex-col overflow-hidden border-r border-gray-200">
+        {/* Table — full width on mobile when list tab active, fixed left column on lg+ */}
+        <div className={`flex-1 flex-col overflow-hidden border-r border-gray-200 ${mobileTab === 'list' ? 'flex' : 'hidden lg:flex'}`}>
           <ProviderTable providers={filtered} allProviders={providers} />
         </div>
 
-        {/* Right: Map + Chart */}
-        <div className="w-96 flex flex-col shrink-0">
+        {/* Right: Map + Chart — full width on mobile when visual tab active, fixed sidebar on lg+ */}
+        <div className={`flex-col shrink-0 w-full lg:w-96 ${mobileTab === 'visual' ? 'flex' : 'hidden lg:flex'}`}>
           <div className="flex-1 p-3 border-b border-gray-200">
             <p className="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-2">World Map</p>
             <div className="h-full">
@@ -140,9 +157,9 @@ function Dashboard() {
       </div>
 
       {/* Footer */}
-      <footer className="shrink-0 bg-white border-t border-gray-200 px-5 py-2 flex items-center justify-between">
-        <p className="text-xs text-gray-400">Personal research tool · Data sourced from public clinical records, provider websites, and peer-reviewed literature · Verify all information directly with providers before making medical decisions</p>
-        <p className="text-xs font-bold tracking-widest text-blue-500 uppercase">Made by Noah's Dad</p>
+      <footer className="shrink-0 bg-white border-t border-gray-200 px-4 py-2 flex flex-col sm:flex-row items-center justify-between gap-1">
+        <p className="text-xs text-gray-400 text-center sm:text-left">Personal research tool · Data sourced from public clinical records, provider websites, and peer-reviewed literature</p>
+        <p className="text-xs font-bold tracking-widest text-blue-500 uppercase shrink-0">Made by Noah's Dad</p>
       </footer>
 
       {/* Detail Drawer */}
