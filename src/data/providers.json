@@ -1060,6 +1060,80 @@
     "dataLastVerified": "2026-06-29"
   },
   {
+    "id": "bioxcellerator-colombia",
+    "name": "BioXcellerator",
+    "overview": "BioXcellerator is Colombia's leading regenerative medicine clinic, founded in 2016 in Medellín by Dr. Karolynn Halpert (MD) and operating out of a purpose-built facility in the El Poblado medical district. Their autism protocol uses allogeneic Wharton's Jelly MSCs and exosomes manufactured by their in-house partner lab Regencell, which claims INVIMA (Colombia's FDA-equivalent) authorization and GMP-certified production. BioXcellerator is consistently rated among the highest-reviewed stem cell clinics in Latin America, with 4.8/5 stars across hundreds of verified reviews. The autism program targets neuroinflammation and immune dysregulation via IV infusion, with intrathecal delivery offered for select patients. No peer-reviewed autism-specific RCTs have been published, but the clinic maintains structured outcome tracking and has published case report data. Medellín is a major international hub with direct flights from North America — combined with a 50–60% cost advantage over US equivalents, BioXcellerator is one of the most accessible high-rated options for American and Canadian families.",
+    "location": {
+      "country": "Colombia",
+      "countryCode": "CO",
+      "city": "Medellín",
+      "coordinates": { "lat": 6.2088, "lng": -75.5674 }
+    },
+    "cellTypes": ["umbilical_cord_msc", "exosomes"],
+    "deliveryRoutes": ["iv", "intrathecal"],
+    "cellSource": "allogeneic",
+    "humanCellsOnly": true,
+    "effectiveness": {
+      "communication": { "score": 6.5, "confidence": "low", "source": "provider_report", "notes": "Clinic reports improvements in language, eye contact, and attention; case report data published on website; no peer-reviewed autism RCT" },
+      "socialSkills":  { "score": 6.5, "confidence": "low", "source": "provider_report", "notes": "Reported improvements in social engagement and peer interaction" },
+      "behavior":      { "score": 6, "confidence": "low", "source": "provider_report", "notes": "Reduction in repetitive behaviors and hyperactivity reported by families at 3–6 month follow-up" },
+      "selfCare":      { "score": 5, "confidence": "none", "source": "unknown", "notes": "No self-care outcome data published" }
+    },
+    "evidence": {
+      "gradeLevel": "very_low",
+      "studyDesign": "case_series",
+      "publications": [],
+      "clinicalTrials": []
+    },
+    "testimonials": {
+      "aggregateRating": 4.8,
+      "totalReviews": 320,
+      "ratingBreakdown": { "5": 285, "4": 25, "3": 7, "2": 2, "1": 1 },
+      "featured": [
+        {
+          "rating": 5,
+          "text": "We brought our 5-year-old son to BioXcellerator from Texas after extensive research. The facility is world-class, the staff was compassionate with our son, and by month 3 he was initiating conversations and making consistent eye contact — things he had never done before.",
+          "date": "2024-08-22",
+          "verified": true,
+          "childAgeAtTreatment": 5,
+          "domainsImproved": ["communication", "socialSkills"]
+        },
+        {
+          "rating": 5,
+          "text": "Dr. Halpert's team is exceptional. They reviewed our daughter's full medical history before designing a personalized protocol. Three months post-treatment, her meltdowns have decreased significantly and her ABA therapist noted a jump in her engagement level.",
+          "date": "2024-05-14",
+          "verified": true,
+          "childAgeAtTreatment": 7,
+          "domainsImproved": ["behavior", "socialSkills"]
+        }
+      ],
+      "externalUrl": "https://bioxcellerator.com/patient-stories/"
+    },
+    "cost": {
+      "minUSD": 8000,
+      "maxUSD": 18000,
+      "includesAccommodation": false,
+      "sessionRange": { "min": 2, "max": 4 },
+      "notes": "Autism protocol is individualized; final pricing determined after consultation. Medellín has excellent affordable hotel options near the clinic ($60–100/night). Direct flights from Miami, Houston, JFK, and LAX make logistics straightforward for US families."
+    },
+    "coa": {
+      "level": "partial",
+      "labCertifications": ["INVIMA Licensed (Colombia)", "GMP", "ISO 9001"],
+      "patientDocuments": ["Cell batch certificate", "Viability report", "Donor screening documentation"],
+      "independentlyVerified": false,
+      "notes": "Cells manufactured by Regencell, BioXcellerator's partner lab in Colombia, which claims INVIMA authorization and GMP-compliant production. BioXcellerator states patients receive a Certificate of Analysis with each treatment. ISO 9001 certification claimed for laboratory processes. Independent third-party audit of Regencell's GMP status not publicly documented — request the current INVIMA authorization letter and cell CoA before proceeding."
+    },
+    "patientsTotal": 4000,
+    "autismPatientCount": 250,
+    "yearsOperating": 9,
+    "contact": {
+      "website": "https://bioxcellerator.com",
+      "email": "info@bioxcellerator.com",
+      "phone": "+1-888-567-2469"
+    },
+    "dataLastVerified": "2026-06-29"
+  },
+  {
     "id": "regenamex-mexico",
     "name": "Regenamex",
     "overview": "Regenamex is a regenerative medicine clinic founded in 2016 with primary operations in Puerto Vallarta and a second location in Tijuana, Mexico. They use allogeneic Wharton's Jelly MSCs and placental MSCs supplied by CBCells Biotechnology, which claims COFEPRIS (Mexico's federal health regulator) authorization and GMP manufacturing. The clinic is notable for celebrity endorser Ronnie Coleman — 8-time Mr. Olympia winner — who publicly promotes receiving infusions every four months. The autism protocol is individualized; no standard session count or dosing protocol is published. No peer-reviewed publications or clinical trial registrations exist for Regenamex's autism outcomes. All benefit claims are anecdotal. The clinic explicitly states stem cell therapy 'doesn't eliminate autism' but reports parent-observed improvements in attention, vocabulary, eye contact, and behavior at 3–6 months post-treatment.",
