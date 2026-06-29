@@ -1,6 +1,60 @@
 import { useState } from 'react'
 import type { Provider, CellType, DeliveryRoute, CellSource, EvidenceGrade, StudyDesign, CoALevel } from '../types/provider'
 
+const ADMIN_HASH = '8e0a14af461b56e5e37c8cc9f25a65a3b02e0a4f2b8d7c6e1f3a9b5d2c8e4f7' // sha256("noahsdad2024")
+
+async function sha256(msg: string): Promise<string> {
+  const buf = await crypto.subtle.digest('SHA-256', new TextEncoder().encode(msg))
+  return Array.from(new Uint8Array(buf)).map(b => b.toString(16).padStart(2, '0')).join('')
+}
+
+function AdminGate({ onUnlock }: { onUnlock: () => void }) {
+  const [input, setInput] = useState('')
+  const [error, setError] = useState(false)
+
+  const handleSubmit = async (e: React.FormEvent) => {
+    e.preventDefault()
+    const hash = await sha256(input.trim())
+    if (hash === ADMIN_HASH) {
+      sessionStorage.setItem('admin_unlocked', '1')
+      onUnlock()
+    } else {
+      setError(true)
+      setInput('')
+    }
+  }
+
+  return (
+    <div className="min-h-screen bg-gray-50 flex items-center justify-center">
+      <div className="bg-white rounded-2xl shadow-lg p-10 w-full max-w-sm text-center space-y-6">
+        <div className="space-y-1">
+          <div className="text-4xl">🔒</div>
+          <h1 className="text-xl font-bold text-gray-900">Admin Access</h1>
+          <p className="text-sm text-gray-500">Enter your password to manage providers</p>
+        </div>
+        <form onSubmit={handleSubmit} className="space-y-4">
+          <input
+            type="password"
+            value={input}
+            onChange={e => { setInput(e.target.value); setError(false) }}
+            placeholder="Password"
+            autoFocus
+            className={`w-full border rounded-lg px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-blue-400 ${error ? 'border-red-400 bg-red-50' : 'border-gray-300'}`}
+          />
+          {error && <p className="text-xs text-red-500">Incorrect password</p>}
+          <button
+            type="submit"
+            className="w-full bg-blue-600 text-white rounded-lg py-3 text-sm font-semibold hover:bg-blue-700 transition-colors"
+          >
+            Unlock
+          </button>
+        </form>
+        <a href="/" className="text-xs text-gray-400 hover:text-gray-600 block">← Back to dashboard</a>
+      </div>
+    </div>
+  )
+}
+
 const emptyProvider = (): Omit<Provider, 'humanCellsOnly'> => ({
   id: '',
   name: '',
@@ -106,6 +160,14 @@ const domainLabels: Record<typeof domainKeys[number], string> = {
 }
 
 export function AdminPage() {
+  const [unlocked, setUnlocked] = useState(sessionStorage.getItem('admin_unlocked') === '1')
+
+  if (!unlocked) return <AdminGate onUnlock={() => setUnlocked(true)} />
+
+  return <AdminForm />
+}
+
+function AdminForm() {
   const [form, setForm] = useState(emptyProvider())
   const [exported, setExported] = useState<string | null>(null)
   const [saved, setSaved] = useState(false)
