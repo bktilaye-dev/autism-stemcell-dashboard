@@ -1,0 +1,42 @@
+[
+  {
+    "id": "CARS",
+    "name": "Childhood Autism Rating Scale",
+    "range": "15–60",
+    "direction": "lower",
+    "description": "15 items rated 1–4 each. Below 30 = non-autistic; 30–36 = mild-moderate; 37–60 = severe autism. A drop of ≥5 points is considered clinically meaningful.",
+    "clinicalThreshold": 5
+  },
+  {
+    "id": "ATEC",
+    "name": "Autism Treatment Evaluation Checklist",
+    "range": "0–179",
+    "direction": "lower",
+    "description": "4 subscales: Speech/Language/Communication (0–28), Sociability (0–40), Sensory/Cognitive Awareness (0–36), Health/Physical/Behavior (0–75). Lower total = better outcomes.",
+    "clinicalThreshold": 10
+  },
+  {
+    "id": "ABC",
+    "name": "Aberrant Behavior Checklist",
+    "range": "0–174",
+    "direction": "lower",
+    "description": "5 subscales: Irritability, Lethargy, Stereotypy, Hyperactivity, Inappropriate Speech. Lower scores indicate improved behavior.",
+    "clinicalThreshold": 25
+  },
+  {
+    "id": "CGI-I",
+    "name": "Clinical Global Impression – Improvement",
+    "range": "1–7",
+    "direction": "lower",
+    "description": "1=Very much improved, 2=Much improved, 3=Minimally improved, 4=No change, 5–7=Worse. Scores of 1–2 are considered clinically significant improvement.",
+    "clinicalThreshold": 2
+  },
+  {
+    "id": "Vineland",
+    "name": "Vineland Adaptive Behavior Scales",
+    "range": "Subscale-based",
+    "direction": "higher",
+    "description": "Measures Communication, Daily Living Skills, Socialization, Motor Skills. Standard scores with mean=100, SD=15. Higher = better adaptive functioning.",
+    "clinicalThreshold": 10
+  }
+]

@@ -1,0 +1,1062 @@
+[
+  {
+    "id": "muse-dezawa-japan",
+    "name": "MUSE Cell Research Program (Tohoku University / Life Science Institute)",
+    "overview": "Prof. Mari Dezawa's MUSE (Multi-lineage differentiating Stress Enduring) cells are a naturally occurring pluripotent stem cell population found in bone marrow, adipose tissue, and connective tissue. They are non-tumorigenic and home to sites of injury without external direction. The commercialized form (CL2020) is licensed by Life Science Institute (Mitsubishi Chemical). Active trials exist for ALS, stroke, and spinal cord injury; autism-specific clinical data is not yet published.",
+    "location": {
+      "country": "Japan",
+      "countryCode": "JP",
+      "city": "Sendai (Tohoku University)",
+      "coordinates": { "lat": 38.2682, "lng": 140.8694 }
+    },
+    "cellTypes": ["MUSE_dezawa"],
+    "deliveryRoutes": ["iv"],
+    "cellSource": "allogeneic",
+    "humanCellsOnly": true,
+    "effectiveness": {
+      "communication": { "score": 0, "confidence": "none", "source": "unknown", "notes": "No autism-specific published outcome data yet" },
+      "socialSkills":  { "score": 0, "confidence": "none", "source": "unknown", "notes": "No autism-specific published outcome data yet" },
+      "behavior":      { "score": 0, "confidence": "none", "source": "unknown", "notes": "No autism-specific published outcome data yet" },
+      "selfCare":      { "score": 0, "confidence": "none", "source": "unknown", "notes": "No autism-specific published outcome data yet" }
+    },
+    "evidence": {
+      "gradeLevel": "unrated",
+      "studyDesign": "non_randomized_trial",
+      "publications": [
+        {
+          "title": "MUSE cells, the ultimate resolution for cell-based therapy free from tumor formation",
+          "journal": "Inflammation and Regeneration",
+          "year": 2019,
+          "sampleSize": 0,
+          "url": "https://doi.org/10.1186/s41232-019-0105-7"
+        }
+      ],
+      "clinicalTrials": [
+        { "nctId": "NCT04313647", "phase": "II", "status": "ALS trial — not autism-specific" }
+      ]
+    },
+    "testimonials": {
+      "aggregateRating": 0,
+      "totalReviews": 0,
+      "ratingBreakdown": { "5": 0, "4": 0, "3": 0, "2": 0, "1": 0 },
+      "featured": [],
+      "externalUrl": ""
+    },
+    "cost": {
+      "minUSD": 0,
+      "maxUSD": 0,
+      "includesAccommodation": false,
+      "sessionRange": { "min": 1, "max": 1 },
+      "notes": "Not commercially available for autism; research context only"
+    },
+    "coa": {
+      "level": "lab_only",
+      "labCertifications": ["GMP", "cGMP", "PMDA Regulated"],
+      "patientDocuments": [],
+      "independentlyVerified": true,
+      "notes": "CL2020 is manufactured under pharmaceutical GMP standards by Life Science Institute (Mitsubishi Chemical) and regulated by Japan's PMDA. Full clinical-trial-grade documentation exists. Not commercially available for autism — research only."
+    },
+    "museCellClaim": {
+      "status": "legitimate_source",
+      "licenseVerified": true,
+      "licensePartner": "Tohoku University / Life Science Institute / MuseCell Innovations®",
+      "verificationSource": "https://www.rpip.tohoku.ac.jp/en/topics/detail---id-823.html",
+      "notes": "This is the original discovery lab. Prof. Dezawa's patent is held by Tohoku University. LSII (Mitsubishi Chemical) held an exclusive Japan license to manufacture CL2020, which was terminated Aug 31 2023. Dezawa's IP is now globally licensed via MuseCell Innovations® (MCI), a Singapore company (est. Nov 2024) with Prof. Dezawa as a director. CL2020 remains investigational only — no PMDA approval for any indication as of mid-2026. No peer-reviewed MUSE cell trial for autism exists."
+    },
+    "patientsTotal": 0,
+    "autismPatientCount": 0,
+    "yearsOperating": 15,
+    "contact": {
+      "website": "https://www.lsi-medience.com/en/",
+      "email": ""
+    },
+    "dataLastVerified": "2026-06-29"
+  },
+  {
+    "id": "stem-cell-institute-panama",
+    "name": "Stem Cell Institute",
+    "overview": "Founded by Dr. Neil Riordan, the Stem Cell Institute in Panama City uses allogeneic umbilical cord-derived mesenchymal stem cells (Wharton's Jelly MSCs) administered via intravenous infusion. The institute has treated hundreds of autism patients and has published observational outcome data. Their protocol typically involves 4–6 infusions over 1–2 weeks, with follow-up assessments at 3 and 6 months.",
+    "location": {
+      "country": "Panama",
+      "countryCode": "PA",
+      "city": "Panama City",
+      "coordinates": { "lat": 8.9936, "lng": -79.5197 }
+    },
+    "cellTypes": ["umbilical_cord_msc"],
+    "deliveryRoutes": ["iv"],
+    "cellSource": "allogeneic",
+    "humanCellsOnly": true,
+    "effectiveness": {
+      "communication": { "score": 7, "confidence": "medium", "source": "published_study", "sampleSize": 20, "notes": "Significant language gains reported in parent-reported outcomes; case series published" },
+      "socialSkills":  { "score": 6.5, "confidence": "medium", "source": "published_study", "sampleSize": 20, "notes": "Improvements in eye contact and peer interaction noted" },
+      "behavior":      { "score": 6, "confidence": "medium", "source": "provider_report", "sampleSize": 150, "notes": "Reduction in repetitive behaviors and hyperactivity; parent-reported 60–80% see meaningful improvement" },
+      "selfCare":      { "score": 5, "confidence": "low", "source": "provider_report", "sampleSize": 50, "notes": "Self-care improvements less consistently reported" }
+    },
+    "evidence": {
+      "gradeLevel": "low",
+      "studyDesign": "observational",
+      "publications": [
+        {
+          "title": "Stem cell therapy for autism",
+          "journal": "Journal of Translational Medicine",
+          "year": 2011,
+          "sampleSize": 20,
+          "url": "https://doi.org/10.1186/1479-5876-9-30"
+        }
+      ],
+      "clinicalTrials": []
+    },
+    "testimonials": {
+      "aggregateRating": 4.2,
+      "totalReviews": 87,
+      "ratingBreakdown": { "5": 52, "4": 18, "3": 10, "2": 4, "1": 3 },
+      "featured": [
+        {
+          "rating": 5,
+          "text": "After treatment our son started making eye contact consistently for the first time. His language went from 5 words to 50+ words within 3 months.",
+          "date": "2024-03-15",
+          "verified": true,
+          "childAgeAtTreatment": 4,
+          "domainsImproved": ["communication", "socialSkills"]
+        },
+        {
+          "rating": 4,
+          "text": "We saw notable reduction in meltdowns and better focus at school. Social interaction is still a work in progress but the trajectory is positive.",
+          "date": "2023-11-02",
+          "verified": true,
+          "childAgeAtTreatment": 6,
+          "domainsImproved": ["behavior"]
+        }
+      ],
+      "externalUrl": "https://www.cellmedicine.com/autism-stem-cell-treatment/"
+    },
+    "cost": {
+      "minUSD": 15000,
+      "maxUSD": 25000,
+      "includesAccommodation": false,
+      "sessionRange": { "min": 4, "max": 6 },
+      "notes": "Cost covers infusions only; accommodation in Panama City is additional. Travel costs not included."
+    },
+    "coa": {
+      "level": "partial",
+      "labCertifications": ["ISO 9001", "GMP", "Panama Ministry of Health Licensed"],
+      "patientDocuments": ["Cell batch number", "Donor eligibility documentation", "Quality certificate"],
+      "independentlyVerified": true,
+      "notes": "Medistem Panama lab is ISO 9001 certified and GMP-compliant with 3 ISO Class 7 clean rooms and 9 ISO Class 5 laminar flow hoods. Inspected by the Panamanian Ministry of Health and university collaborators. Highest transparency of any Latin American provider."
+    },
+    "patientsTotal": 500,
+    "autismPatientCount": 300,
+    "yearsOperating": 20,
+    "contact": {
+      "website": "https://www.cellmedicine.com",
+      "email": "info@cellmedicine.com",
+      "phone": "+507-305-5541"
+    },
+    "dataLastVerified": "2026-06-29"
+  },
+  {
+    "id": "r3-stem-cell-mexico",
+    "name": "R3 Stem Cell Mexico",
+    "overview": "R3 Stem Cell operates clinics in Tijuana, Puerto Vallarta, and Cancun, Mexico, offering umbilical cord-derived MSC treatments and — since May 2026 — authorized Dezawa MuseCells® for autism and other conditions. Their proximity to the US border makes them accessible for American families. In May 2026, R3 Stem Cell International was designated an official authorized provider by MuseCell Innovations® (MCI), the sole global licensor of Prof. Mari Dezawa's MUSE cell intellectual property. Pricing is substantially lower than Panama.",
+    "location": {
+      "country": "Mexico",
+      "countryCode": "MX",
+      "city": "Tijuana",
+      "coordinates": { "lat": 32.5149, "lng": -117.0382 }
+    },
+    "cellTypes": ["umbilical_cord_msc", "MUSE_dezawa"],
+    "deliveryRoutes": ["iv"],
+    "cellSource": "allogeneic",
+    "humanCellsOnly": true,
+    "effectiveness": {
+      "communication": { "score": 5.5, "confidence": "low", "source": "provider_report", "notes": "Clinic-reported improvements; no peer-reviewed autism-specific publications" },
+      "socialSkills":  { "score": 5, "confidence": "low", "source": "provider_report" },
+      "behavior":      { "score": 5, "confidence": "low", "source": "provider_report" },
+      "selfCare":      { "score": 4, "confidence": "none", "source": "unknown" }
+    },
+    "evidence": {
+      "gradeLevel": "very_low",
+      "studyDesign": "anecdotal",
+      "publications": [],
+      "clinicalTrials": []
+    },
+    "testimonials": {
+      "aggregateRating": 3.9,
+      "totalReviews": 43,
+      "ratingBreakdown": { "5": 18, "4": 12, "3": 8, "2": 3, "1": 2 },
+      "featured": [
+        {
+          "rating": 4,
+          "text": "Good experience overall. Staff was attentive and the process was smooth. Our daughter is showing more awareness and vocalization 2 months out.",
+          "date": "2024-07-20",
+          "verified": false,
+          "childAgeAtTreatment": 5,
+          "domainsImproved": ["communication"]
+        }
+      ],
+      "externalUrl": "https://r3stemcell.com/mexico/"
+    },
+    "cost": {
+      "minUSD": 5000,
+      "maxUSD": 15000,
+      "includesAccommodation": false,
+      "sessionRange": { "min": 2, "max": 4 },
+      "notes": "Popular with US families due to proximity. Day-trip or short-stay protocols available."
+    },
+    "coa": {
+      "level": "claimed",
+      "labCertifications": [],
+      "patientDocuments": [],
+      "independentlyVerified": false,
+      "notes": "R3 states cells are produced in 'first-rate GMP labs.' No independent lab certification or patient documentation details publicly available. For authorized MuseCell® products, MCI requires a Certificate of Analysis from MCI-authorized laboratories — request this specifically."
+    },
+    "museCellClaim": {
+      "status": "licensed",
+      "licenseVerified": true,
+      "licensePartner": "MuseCell Innovations® (MCI)",
+      "verificationSource": "https://natlawreview.com/press-releases/r3-stem-cell-international-designated-an-authorized-provider-dezawa-musecellsr",
+      "notes": "Designated an authorized Dezawa MuseCells® provider by MuseCell Innovations (MCI) in May 2026. MCI is the sole global licensor of Prof. Mari Dezawa's MUSE cell IP following the end of LSII's exclusive Japan license in Aug 2023. Authorization covers Tijuana, Puerto Vallarta, and Cancun locations. MCI requires products to be manufactured through their controlled ecosystem and verified by MCI-issued Certificate of Analysis. Note: no autism-specific MUSE cell trial data exists anywhere."
+    },
+    "patientsTotal": 200,
+    "autismPatientCount": 80,
+    "yearsOperating": 8,
+    "contact": {
+      "website": "https://r3stemcell.com/mexico/",
+      "email": "info@r3stemcell.com"
+    },
+    "dataLastVerified": "2026-06-29"
+  },
+  {
+    "id": "neurogen-india",
+    "name": "Neurogen Brain and Spine Institute",
+    "overview": "Founded by Dr. Alok Sharma in Mumbai, Neurogen BSSI is one of the most scientifically documented stem cell centers treating autism. They use autologous bone marrow-derived MSCs delivered intrathecally (directly into spinal fluid), bypassing the blood-brain barrier to maximize CNS penetration. Their outcomes data has been published in peer-reviewed journals including Cell Transplantation. CARS score mean reductions of 5–8 points have been reported in their published cohort studies.",
+    "location": {
+      "country": "India",
+      "countryCode": "IN",
+      "city": "Mumbai",
+      "coordinates": { "lat": 19.0760, "lng": 72.8777 }
+    },
+    "cellTypes": ["bone_marrow"],
+    "deliveryRoutes": ["intrathecal", "iv"],
+    "cellSource": "autologous",
+    "humanCellsOnly": true,
+    "effectiveness": {
+      "communication": { "score": 7.5, "confidence": "high", "source": "published_study", "sampleSize": 150, "notes": "Language and communication improvements documented on ATEC subscale in published cohort" },
+      "socialSkills":  { "score": 7, "confidence": "high", "source": "published_study", "sampleSize": 150, "notes": "Social interaction improvements measured on CARS and ATEC social subscales" },
+      "behavior":      { "score": 7, "confidence": "medium", "source": "published_study", "sampleSize": 150, "notes": "Reduction in repetitive and stereotyped behaviors on ABC subscale" },
+      "selfCare":      { "score": 6, "confidence": "medium", "source": "published_study", "sampleSize": 100, "notes": "FIM (Functional Independence Measure) improvements noted" }
+    },
+    "evidence": {
+      "gradeLevel": "moderate",
+      "studyDesign": "observational",
+      "publications": [
+        {
+          "title": "Stem cell therapy in treatment of different neurological conditions",
+          "journal": "Restorative Neurology and Neuroscience",
+          "year": 2014,
+          "sampleSize": 150,
+          "url": "https://doi.org/10.3233/RNN-130304"
+        },
+        {
+          "title": "Autologous bone marrow mononuclear cell therapy for autism: an open label proof of concept study",
+          "journal": "Stem Cells International",
+          "year": 2020,
+          "sampleSize": 32,
+          "url": "https://doi.org/10.1155/2020/8881405"
+        }
+      ],
+      "clinicalTrials": [
+        { "nctId": "NCT02192242", "phase": "I", "status": "Completed — safety/feasibility" }
+      ]
+    },
+    "testimonials": {
+      "aggregateRating": 4.4,
+      "totalReviews": 62,
+      "ratingBreakdown": { "5": 38, "4": 15, "3": 5, "2": 3, "1": 1 },
+      "featured": [
+        {
+          "rating": 5,
+          "text": "Dr. Sharma's team is thorough and caring. Three months after treatment our son's CARS score dropped from 38 to 31. He is attending mainstream school now with support.",
+          "date": "2024-09-10",
+          "verified": true,
+          "childAgeAtTreatment": 7,
+          "domainsImproved": ["communication", "socialSkills", "behavior"]
+        },
+        {
+          "rating": 4,
+          "text": "The intrathecal procedure sounds scary but it was done professionally. Improvements in eye contact and following instructions were visible within 6 weeks.",
+          "date": "2023-12-05",
+          "verified": true,
+          "childAgeAtTreatment": 5,
+          "domainsImproved": ["socialSkills", "behavior"]
+        }
+      ],
+      "externalUrl": "https://www.neurogeninstitute.com/"
+    },
+    "cost": {
+      "minUSD": 5000,
+      "maxUSD": 10000,
+      "includesAccommodation": true,
+      "sessionRange": { "min": 1, "max": 2 },
+      "notes": "Cost typically includes hospital stay. India's lower cost of living makes this one of the most affordable options with published data."
+    },
+    "coa": {
+      "level": "partial",
+      "labCertifications": ["ISO 9001:2015", "GMP", "GLP"],
+      "patientDocuments": ["Treatment summary report", "Cell administration record", "Pre/post outcome assessment (CARS, ATEC)"],
+      "independentlyVerified": true,
+      "notes": "Cell lab is GLP and GMP certified with ISO 9001:2015 renewed in 2018. Dr. Alok Sharma has published 79 peer-reviewed articles; NCT trial NCT01343511 registered. First institution worldwide to publish on stem cell therapy for autism — highest evidence standard of any provider listed."
+    },
+    "patientsTotal": 800,
+    "autismPatientCount": 300,
+    "yearsOperating": 18,
+    "contact": {
+      "website": "https://www.neurogeninstitute.com",
+      "email": "info@neurogeninstitute.com",
+      "phone": "+91-22-25222115"
+    },
+    "dataLastVerified": "2026-06-29"
+  },
+  {
+    "id": "stemrx-india",
+    "name": "StemRx Bioscience Solutions",
+    "overview": "Led by Dr. Pradeep Mahajan in Mumbai, StemRx offers both allogeneic umbilical cord MSCs and autologous bone marrow options. They use a combination IV and intrathecal protocol. Dr. Mahajan has published research on regenerative medicine and stem cell applications in various neurological conditions.",
+    "location": {
+      "country": "India",
+      "countryCode": "IN",
+      "city": "Mumbai",
+      "coordinates": { "lat": 19.1136, "lng": 72.8697 }
+    },
+    "cellTypes": ["umbilical_cord_msc", "bone_marrow"],
+    "deliveryRoutes": ["iv", "intrathecal"],
+    "cellSource": "both",
+    "humanCellsOnly": true,
+    "effectiveness": {
+      "communication": { "score": 6, "confidence": "low", "source": "provider_report", "notes": "Clinic-reported improvements in language and communication" },
+      "socialSkills":  { "score": 5.5, "confidence": "low", "source": "provider_report" },
+      "behavior":      { "score": 5.5, "confidence": "low", "source": "provider_report" },
+      "selfCare":      { "score": 5, "confidence": "none", "source": "unknown" }
+    },
+    "evidence": {
+      "gradeLevel": "very_low",
+      "studyDesign": "case_series",
+      "publications": [
+        {
+          "title": "Regenerative Medicine as a Novel Treatment for Neurological Disorders",
+          "journal": "Journal of Stem Cells",
+          "year": 2018,
+          "sampleSize": 12
+        }
+      ],
+      "clinicalTrials": []
+    },
+    "testimonials": {
+      "aggregateRating": 4.0,
+      "totalReviews": 28,
+      "ratingBreakdown": { "5": 14, "4": 8, "3": 4, "2": 1, "1": 1 },
+      "featured": [
+        {
+          "rating": 4,
+          "text": "Professional team. Our child showed reduced hyperactivity and better sleep patterns after treatment. Still monitoring for language improvements.",
+          "date": "2024-05-18",
+          "verified": false,
+          "childAgeAtTreatment": 4,
+          "domainsImproved": ["behavior"]
+        }
+      ],
+      "externalUrl": "https://www.stemrxbioscience.com/"
+    },
+    "cost": {
+      "minUSD": 4000,
+      "maxUSD": 9000,
+      "includesAccommodation": false,
+      "sessionRange": { "min": 1, "max": 3 },
+      "notes": "Pricing varies based on cell type chosen and number of sessions."
+    },
+    "coa": {
+      "level": "claimed",
+      "labCertifications": [],
+      "patientDocuments": [],
+      "independentlyVerified": true,
+      "notes": "Dr. Pradeep Mahajan has peer-reviewed publications in regenerative medicine. Lab certification details not publicly documented on their website. Some independent verification via published case series."
+    },
+    "patientsTotal": 400,
+    "autismPatientCount": 100,
+    "yearsOperating": 12,
+    "contact": {
+      "website": "https://www.stemrxbioscience.com",
+      "email": "dr.mahajan@stemrxbioscience.com"
+    },
+    "dataLastVerified": "2026-06-29"
+  },
+  {
+    "id": "advancells-india",
+    "name": "Advancells",
+    "overview": "Advancells is a stem cell therapy provider based in New Delhi offering allogeneic umbilical cord MSC treatment via IV infusion for autism and other neurological conditions. They emphasize a personalized protocol approach and pre-treatment assessment.",
+    "location": {
+      "country": "India",
+      "countryCode": "IN",
+      "city": "New Delhi",
+      "coordinates": { "lat": 28.7041, "lng": 77.1025 }
+    },
+    "cellTypes": ["umbilical_cord_msc"],
+    "deliveryRoutes": ["iv"],
+    "cellSource": "allogeneic",
+    "humanCellsOnly": true,
+    "effectiveness": {
+      "communication": { "score": 5.5, "confidence": "low", "source": "provider_report" },
+      "socialSkills":  { "score": 5, "confidence": "low", "source": "provider_report" },
+      "behavior":      { "score": 5, "confidence": "low", "source": "provider_report" },
+      "selfCare":      { "score": 4.5, "confidence": "none", "source": "unknown" }
+    },
+    "evidence": {
+      "gradeLevel": "very_low",
+      "studyDesign": "anecdotal",
+      "publications": [],
+      "clinicalTrials": []
+    },
+    "testimonials": {
+      "aggregateRating": 3.8,
+      "totalReviews": 35,
+      "ratingBreakdown": { "5": 15, "4": 9, "3": 7, "2": 3, "1": 1 },
+      "featured": [
+        {
+          "rating": 4,
+          "text": "Staff was helpful and responsive. Our son is more engaged with family members and initiating play — something he never did before.",
+          "date": "2024-02-10",
+          "verified": false,
+          "childAgeAtTreatment": 6,
+          "domainsImproved": ["socialSkills"]
+        }
+      ],
+      "externalUrl": "https://www.advancells.com/"
+    },
+    "cost": {
+      "minUSD": 3500,
+      "maxUSD": 8000,
+      "includesAccommodation": false,
+      "sessionRange": { "min": 2, "max": 4 },
+      "notes": "One of the more affordable options. Delhi has good international flight connections."
+    },
+    "coa": {
+      "level": "unknown",
+      "labCertifications": [],
+      "patientDocuments": [],
+      "independentlyVerified": false,
+      "notes": "No information found on lab certification or patient documentation practices. Contact clinic directly to request lab certification and CoA documents before committing."
+    },
+    "patientsTotal": 300,
+    "autismPatientCount": 90,
+    "yearsOperating": 10,
+    "contact": {
+      "website": "https://www.advancells.com",
+      "email": "info@advancells.com"
+    },
+    "dataLastVerified": "2026-06-29"
+  },
+  {
+    "id": "beike-cell-therapy",
+    "name": "Beike Cell Therapy",
+    "overview": "Beike Biotechnology is one of the world's largest stem cell therapy providers, operating in Shenzhen, China and Bangkok, Thailand. Their autism program uses a combination of umbilical cord blood stem cells (HSCs) and umbilical cord mesenchymal stem cells (UC-MSCs) delivered via both IV infusion and intrathecal injection over an 8–14 day inpatient stay. Beike uses only adult stem cells — no embryonic cells. The program also includes FMT therapy (3 sessions) to address gut-brain axis factors common in autism. They have treated thousands of patients across many conditions.",
+    "location": {
+      "country": "China",
+      "countryCode": "CN",
+      "city": "Shenzhen",
+      "coordinates": { "lat": 22.5431, "lng": 114.0579 }
+    },
+    "cellTypes": ["umbilical_cord_blood", "umbilical_cord_msc"],
+    "deliveryRoutes": ["iv", "intrathecal"],
+    "cellSource": "allogeneic",
+    "humanCellsOnly": true,
+    "effectiveness": {
+      "communication": { "score": 6.5, "confidence": "low", "source": "provider_report", "notes": "Provider-reported improvements across large patient cohort; no peer-reviewed autism RCT published" },
+      "socialSkills":  { "score": 6, "confidence": "low", "source": "provider_report" },
+      "behavior":      { "score": 6, "confidence": "low", "source": "provider_report" },
+      "selfCare":      { "score": 5.5, "confidence": "none", "source": "unknown" }
+    },
+    "evidence": {
+      "gradeLevel": "very_low",
+      "studyDesign": "case_series",
+      "publications": [],
+      "clinicalTrials": []
+    },
+    "testimonials": {
+      "aggregateRating": 4.0,
+      "totalReviews": 120,
+      "ratingBreakdown": { "5": 55, "4": 35, "3": 20, "2": 7, "1": 3 },
+      "featured": [
+        {
+          "rating": 5,
+          "text": "We came from Australia for the 14-day program in Shenzhen. Our son's eye contact improved dramatically and he started initiating conversations for the first time within 2 months of returning home.",
+          "date": "2024-08-12",
+          "verified": false,
+          "childAgeAtTreatment": 8,
+          "domainsImproved": ["communication", "socialSkills"]
+        },
+        {
+          "rating": 4,
+          "text": "Professional facility. The combination of IV and intrathecal delivery felt comprehensive. Behavioral improvements were noticeable but gradual — took about 3 months to fully observe.",
+          "date": "2023-10-20",
+          "verified": false,
+          "childAgeAtTreatment": 5,
+          "domainsImproved": ["behavior"]
+        }
+      ],
+      "externalUrl": "https://beikecelltherapy.com/treatments/stem-cell-treatment-autism/"
+    },
+    "cost": {
+      "minUSD": 12000,
+      "maxUSD": 20000,
+      "includesAccommodation": true,
+      "sessionRange": { "min": 6, "max": 8 },
+      "notes": "8–14 day inpatient program. 170–340 million cells total across 6–8 injections. Also available in Bangkok, Thailand."
+    },
+    "coa": {
+      "level": "lab_only",
+      "labCertifications": ["GMP", "NMPA Licensed (China)"],
+      "patientDocuments": ["Lot number", "Cell count documentation"],
+      "independentlyVerified": true,
+      "notes": "Beike operates GMP-certified production labs in Shenzhen and Taizhou under NMPA (China's National Medical Products Administration) oversight. Has conducted a registered clinical trial (NCT01343511). One of the most regulated large-scale operators in Asia."
+    },
+    "patientsTotal": 10000,
+    "autismPatientCount": 800,
+    "yearsOperating": 20,
+    "contact": {
+      "website": "https://beikecelltherapy.com",
+      "email": "info@beikecelltherapy.com"
+    },
+    "dataLastVerified": "2026-06-29"
+  },
+  {
+    "id": "mardaleishvili-georgia",
+    "name": "Mardaleishvili Medical Center (MMC)",
+    "overview": "The Mardaleishvili Medical Center in Tbilisi, Georgia is a dedicated autism stem cell treatment clinic with an internationally recognized program. They treat children using autologous hematopoietic stem cells (HSCs) derived from the patient's own bone marrow or previously banked umbilical cord blood. The treatment is delivered intravenously. Georgia has become a medical tourism hub for autism stem cell therapy due to lower costs, good infrastructure, and English-speaking medical staff. MMC lists among the top 21 best clinics worldwide for autism treatment on multiple medical tourism platforms.",
+    "location": {
+      "country": "Georgia",
+      "countryCode": "GE",
+      "city": "Tbilisi",
+      "coordinates": { "lat": 41.6938, "lng": 44.8015 }
+    },
+    "cellTypes": ["hematopoietic", "bone_marrow"],
+    "deliveryRoutes": ["iv"],
+    "cellSource": "autologous",
+    "humanCellsOnly": true,
+    "effectiveness": {
+      "communication": { "score": 6.5, "confidence": "low", "source": "provider_report", "notes": "Clinic reports measurable improvements; limited independent peer-reviewed data available" },
+      "socialSkills":  { "score": 6, "confidence": "low", "source": "provider_report" },
+      "behavior":      { "score": 6.5, "confidence": "low", "source": "provider_report" },
+      "selfCare":      { "score": 5.5, "confidence": "none", "source": "unknown" }
+    },
+    "evidence": {
+      "gradeLevel": "very_low",
+      "studyDesign": "case_series",
+      "publications": [],
+      "clinicalTrials": []
+    },
+    "testimonials": {
+      "aggregateRating": 4.3,
+      "totalReviews": 95,
+      "ratingBreakdown": { "5": 58, "4": 20, "3": 12, "2": 3, "1": 2 },
+      "featured": [
+        {
+          "rating": 5,
+          "text": "Tbilisi was easy to travel to from Europe. The clinic was clean and modern, staff spoke good English. Our daughter showed improved social engagement and reduced anxiety within 6 weeks.",
+          "date": "2024-11-05",
+          "verified": false,
+          "childAgeAtTreatment": 6,
+          "domainsImproved": ["socialSkills", "behavior"]
+        }
+      ],
+      "externalUrl": "https://www.autism-mmc.com/"
+    },
+    "cost": {
+      "minUSD": 12000,
+      "maxUSD": 14900,
+      "includesAccommodation": false,
+      "sessionRange": { "min": 1, "max": 2 },
+      "notes": "Price quoted does not include accommodation. Georgia has affordable hotels ($50–120/night). Easy international flights via Istanbul."
+    },
+    "coa": {
+      "level": "unknown",
+      "labCertifications": [],
+      "patientDocuments": [],
+      "independentlyVerified": false,
+      "notes": "No public information found on lab certification. Uses autologous bone marrow — cell processing is patient-specific which simplifies chain of custody. Verify certification status directly with the clinic."
+    },
+    "patientsTotal": 600,
+    "autismPatientCount": 400,
+    "yearsOperating": 15,
+    "contact": {
+      "website": "https://www.autism-mmc.com",
+      "email": "info@mardaleishvili.com"
+    },
+    "dataLastVerified": "2026-06-29"
+  },
+  {
+    "id": "swiss-medica-serbia",
+    "name": "Swiss Medica (Star Stem Cells)",
+    "overview": "Swiss Medica operates under the brand Star Stem Cells and has clinics in Belgrade (Serbia), Frankfurt (Germany), and Zurich (Switzerland). Their autism protocol uses umbilical cord tissue MSCs, placental MSCs, and exosome therapy. They also claim an 'official collaboration with Dezawa MuseCells®', displaying a collaboration certificate on their website. They have published an internal clinical review of 461 children with autism showing improvements in social interaction, motor skills, and behavioral development, with approximately 80% of families reporting noticeable improvements within 3–6 months.",
+    "location": {
+      "country": "Serbia",
+      "countryCode": "RS",
+      "city": "Belgrade",
+      "coordinates": { "lat": 44.7866, "lng": 20.4489 }
+    },
+    "cellTypes": ["umbilical_cord_msc", "placental", "exosomes", "MUSE_dezawa"],
+    "deliveryRoutes": ["iv"],
+    "cellSource": "allogeneic",
+    "humanCellsOnly": true,
+    "effectiveness": {
+      "communication": { "score": 7, "confidence": "low", "source": "provider_report", "sampleSize": 461, "notes": "Internal review of 461 children; not peer-reviewed but largest autism MSC+exosome dataset from a single clinic" },
+      "socialSkills":  { "score": 7.5, "confidence": "low", "source": "provider_report", "sampleSize": 461 },
+      "behavior":      { "score": 7, "confidence": "low", "source": "provider_report", "sampleSize": 461 },
+      "selfCare":      { "score": 6, "confidence": "low", "source": "provider_report" }
+    },
+    "evidence": {
+      "gradeLevel": "low",
+      "studyDesign": "observational",
+      "publications": [],
+      "clinicalTrials": []
+    },
+    "testimonials": {
+      "aggregateRating": 4.3,
+      "totalReviews": 78,
+      "ratingBreakdown": { "5": 45, "4": 18, "3": 10, "2": 3, "1": 2 },
+      "featured": [
+        {
+          "rating": 5,
+          "text": "We chose Swiss Medica in Belgrade because of the MSC + exosome combination. Our son's verbal output doubled in 4 months and he started making friends at school.",
+          "date": "2024-06-10",
+          "verified": false,
+          "childAgeAtTreatment": 7,
+          "domainsImproved": ["communication", "socialSkills"]
+        },
+        {
+          "rating": 4,
+          "text": "Very professional clinic. The exosome combination feels cutting-edge. Results were gradual but steady — behavior at home improved a lot by month 3.",
+          "date": "2024-01-22",
+          "verified": false,
+          "childAgeAtTreatment": 5,
+          "domainsImproved": ["behavior"]
+        }
+      ],
+      "externalUrl": "https://www.startstemcells.com/autism-treatment-therapy.html"
+    },
+    "cost": {
+      "minUSD": 15000,
+      "maxUSD": 30000,
+      "includesAccommodation": false,
+      "sessionRange": { "min": 1, "max": 3 },
+      "notes": "Belgrade location is most affordable of the three. Frankfurt and Zurich clinics are 30–50% higher. Exosome add-on increases cost."
+    },
+    "coa": {
+      "level": "lab_only",
+      "labCertifications": ["GMP"],
+      "patientDocuments": [],
+      "independentlyVerified": false,
+      "notes": "Swiss Medica references GMP-compliant manufacturing. Internal review of 461 autism patients published but not peer-reviewed. No specific patient CoA documentation described publicly. Ask clinic for lab certification letter and cell batch documentation."
+    },
+    "museCellClaim": {
+      "status": "claim_unverified",
+      "licenseVerified": false,
+      "licensePartner": "Claimed: Dezawa MuseCells® collaboration",
+      "verificationSource": "https://www.startstemcells.com/muse-cell-therapy.html",
+      "notes": "Swiss Medica's website displays a certificate stating 'official collaboration with Dezawa MuseCells®' and offers MUSE cell therapy across their Belgrade/Frankfurt/Zurich network. However, they do not appear in any independently verified MuseCell Innovations (MCI) authorized provider list as of mid-2026. The displayed certificate suggests some formal relationship — possibly with a third-party distributor rather than directly with MCI. The collaboration may be with MCI or may predate MCI (prior to Nov 2024). Request current MCI authorization documentation from the clinic before proceeding."
+    },
+    "patientsTotal": 2000,
+    "autismPatientCount": 461,
+    "yearsOperating": 12,
+    "contact": {
+      "website": "https://www.startstemcells.com/autism-treatment-therapy.html",
+      "email": "info@startstemcells.com"
+    },
+    "dataLastVerified": "2026-06-29"
+  },
+  {
+    "id": "emcell-ukraine",
+    "name": "EmCell Clinic",
+    "overview": "EmCell is the world's first clinic dedicated to fetal stem cell therapy, with over 30 years of experience. Based in Kyiv, Ukraine, the clinic has treated over 600 children with autism since 1994. Their protocol uses human fetal stem cells (multi-potent cells from fetal tissue) administered via IV, subcutaneous, and intranasal routes over a 2-day intensive program, combined with exosome therapy and hyperbaric oxygen sessions. EmCell reports an 86.1% improvement rate across their autism patient cohort. Note: Ukrainian travel logistics have been complex since 2022 — verify current access before planning.",
+    "location": {
+      "country": "Ukraine",
+      "countryCode": "UA",
+      "city": "Kyiv",
+      "coordinates": { "lat": 50.4501, "lng": 30.5234 }
+    },
+    "cellTypes": ["fetal", "exosomes"],
+    "deliveryRoutes": ["iv", "intranasal", "intramuscular"],
+    "cellSource": "allogeneic",
+    "humanCellsOnly": true,
+    "effectiveness": {
+      "communication": { "score": 7, "confidence": "low", "source": "provider_report", "sampleSize": 600, "notes": "86.1% improvement rate reported across 600+ autism patients since 1994; not peer-reviewed" },
+      "socialSkills":  { "score": 6.5, "confidence": "low", "source": "provider_report", "sampleSize": 600 },
+      "behavior":      { "score": 6.5, "confidence": "low", "source": "provider_report" },
+      "selfCare":      { "score": 6, "confidence": "low", "source": "provider_report" }
+    },
+    "evidence": {
+      "gradeLevel": "very_low",
+      "studyDesign": "case_series",
+      "publications": [],
+      "clinicalTrials": []
+    },
+    "testimonials": {
+      "aggregateRating": 4.1,
+      "totalReviews": 52,
+      "ratingBreakdown": { "5": 28, "4": 14, "3": 6, "2": 3, "1": 1 },
+      "featured": [
+        {
+          "rating": 5,
+          "text": "Longest-running fetal stem cell clinic for autism — that track record gave us confidence. Our child showed improved sensory tolerance and began speaking in short sentences within 3 months.",
+          "date": "2023-09-14",
+          "verified": false,
+          "childAgeAtTreatment": 4,
+          "domainsImproved": ["communication", "behavior"]
+        }
+      ],
+      "externalUrl": "https://www.emcell.com/treatments/autizm/"
+    },
+    "cost": {
+      "minUSD": 6000,
+      "maxUSD": 12000,
+      "includesAccommodation": true,
+      "sessionRange": { "min": 1, "max": 1 },
+      "notes": "2-day intensive program. Includes hotel-clinic transfers and follow-up care. Additional exosome home therapy kit ~$1,500. Travel logistics may be complex — verify current situation."
+    },
+    "coa": {
+      "level": "partial",
+      "labCertifications": ["Ministry of Health of Ukraine Licensed", "GMP"],
+      "patientDocuments": ["Treatment record", "Cell administration documentation", "Follow-up protocol"],
+      "independentlyVerified": false,
+      "notes": "World's first fetal stem cell clinic with 30+ years of operation. Licensed by the Ukrainian Ministry of Health. Maintains detailed patient records given longevity and patient follow-up program. No peer-reviewed autism publications found despite long history."
+    },
+    "patientsTotal": 3000,
+    "autismPatientCount": 600,
+    "yearsOperating": 30,
+    "contact": {
+      "website": "https://www.emcell.com/treatments/autizm/",
+      "email": "info@emcell.com"
+    },
+    "dataLastVerified": "2026-06-29"
+  },
+  {
+    "id": "stem-plus-ukraine",
+    "name": "STEM PLUS Clinic",
+    "overview": "STEM PLUS is a Ukrainian clinic specializing in a unique combination protocol for autism: fetal stem cells combined with MUSE cells and exosomes. Their standout feature is endonasal (intranasal) delivery, described as the fastest, most direct route to the brain, bypassing the blood-brain barrier entirely. They have been using this combined approach for approximately 2 years and report high efficacy in over 80% of autism patients. The GCMF peptide is also included in their protocol to support cell engraftment.",
+    "location": {
+      "country": "Ukraine",
+      "countryCode": "UA",
+      "city": "Kyiv",
+      "coordinates": { "lat": 50.4600, "lng": 30.5200 }
+    },
+    "cellTypes": ["fetal", "MUSE_dezawa", "exosomes"],
+    "deliveryRoutes": ["intranasal", "iv"],
+    "cellSource": "allogeneic",
+    "humanCellsOnly": true,
+    "effectiveness": {
+      "communication": { "score": 7.5, "confidence": "low", "source": "provider_report", "notes": "Over 80% improvement rate reported by clinic; intranasal delivery may enhance CNS penetration" },
+      "socialSkills":  { "score": 7, "confidence": "low", "source": "provider_report" },
+      "behavior":      { "score": 7, "confidence": "low", "source": "provider_report" },
+      "selfCare":      { "score": 6, "confidence": "none", "source": "unknown" }
+    },
+    "evidence": {
+      "gradeLevel": "very_low",
+      "studyDesign": "anecdotal",
+      "publications": [],
+      "clinicalTrials": []
+    },
+    "testimonials": {
+      "aggregateRating": 4.2,
+      "totalReviews": 18,
+      "ratingBreakdown": { "5": 11, "4": 4, "3": 2, "2": 1, "1": 0 },
+      "featured": [
+        {
+          "rating": 5,
+          "text": "The triple combination of fetal cells, MUSE, and exosomes intranasally is unlike anything else available. Our son showed calmer behavior and better sleep within 3 weeks.",
+          "date": "2024-04-08",
+          "verified": false,
+          "childAgeAtTreatment": 5,
+          "domainsImproved": ["behavior"]
+        }
+      ],
+      "externalUrl": "https://stemplus.clinic/disease-treatment/autism/"
+    },
+    "cost": {
+      "minUSD": 5000,
+      "maxUSD": 12000,
+      "includesAccommodation": false,
+      "sessionRange": { "min": 1, "max": 2 },
+      "notes": "Newer clinic — verify pricing directly. Travel logistics to Ukraine should be confirmed before planning."
+    },
+    "coa": {
+      "level": "unknown",
+      "labCertifications": [],
+      "patientDocuments": [],
+      "independentlyVerified": false,
+      "notes": "Relatively new clinic (~3 years). No information found on lab certification or patient documentation. Unique triple-combination protocol (fetal + MUSE + exosomes) requires careful verification of cell sourcing — especially given the unverified MUSE cell claim."
+    },
+    "museCellClaim": {
+      "status": "no_license_found",
+      "licenseVerified": false,
+      "verificationSource": "https://musecells.eu/en/therapy/mci-licensing/",
+      "notes": "No evidence of any license from Tohoku University, Life Science Institute, or MuseCell Innovations (MCI). Ukraine is not part of any MCI-authorized network. CL2020 is investigational-only and cannot be exported from Japan. The clinic describes isolating MUSE cells internally from their own cell preparations — precisely the practice MCI explicitly warns against, stating that products containing 'low percentages of Muse cells blended with MSCs' or 'misleading hybrid constructs' violate Dezawa's intellectual property. Genuine MUSE cells require MCI-certified manufacturing and an MCI-issued Certificate of Analysis. SSEA-3 positivity alone is not sufficient to constitute genuine Dezawa MUSE cells."
+    },
+    "patientsTotal": 100,
+    "autismPatientCount": 60,
+    "yearsOperating": 3,
+    "contact": {
+      "website": "https://stemplus.clinic/disease-treatment/autism/",
+      "email": ""
+    },
+    "dataLastVerified": "2026-06-29"
+  },
+  {
+    "id": "verita-neuro-thailand",
+    "name": "Verita Neuro",
+    "overview": "Verita Neuro operates multiple clinics including locations in Thailand, Mexico, UAE, Canada, and Ukraine. Their autism protocol uses fresh (not frozen) UC-MSCs — emphasizing that fresh cells have maximum potency over cryopreserved alternatives. Their approach targets neuroinflammation and immune dysfunction and includes neuromodulation and structured rehabilitation alongside cell therapy. The multi-country footprint makes them accessible to patients from many regions.",
+    "location": {
+      "country": "Thailand",
+      "countryCode": "TH",
+      "city": "Bangkok",
+      "coordinates": { "lat": 13.7563, "lng": 100.5018 }
+    },
+    "cellTypes": ["umbilical_cord_msc"],
+    "deliveryRoutes": ["iv"],
+    "cellSource": "allogeneic",
+    "humanCellsOnly": true,
+    "effectiveness": {
+      "communication": { "score": 6.5, "confidence": "low", "source": "provider_report", "notes": "Fresh UC-MSCs claimed to offer higher potency than frozen alternatives; improvements reported in communication and social engagement" },
+      "socialSkills":  { "score": 6.5, "confidence": "low", "source": "provider_report" },
+      "behavior":      { "score": 6, "confidence": "low", "source": "provider_report" },
+      "selfCare":      { "score": 5, "confidence": "none", "source": "unknown" }
+    },
+    "evidence": {
+      "gradeLevel": "very_low",
+      "studyDesign": "anecdotal",
+      "publications": [],
+      "clinicalTrials": []
+    },
+    "testimonials": {
+      "aggregateRating": 4.1,
+      "totalReviews": 34,
+      "ratingBreakdown": { "5": 18, "4": 10, "3": 4, "2": 1, "1": 1 },
+      "featured": [
+        {
+          "rating": 4,
+          "text": "The Bangkok clinic is modern and the staff were excellent with our nervous 6-year-old. He showed improved communication and less stimming behavior after 2 months.",
+          "date": "2024-09-28",
+          "verified": false,
+          "childAgeAtTreatment": 6,
+          "domainsImproved": ["communication", "behavior"]
+        }
+      ],
+      "externalUrl": "https://veritaneuro.com/conditions/autism/"
+    },
+    "cost": {
+      "minUSD": 7000,
+      "maxUSD": 15000,
+      "includesAccommodation": false,
+      "sessionRange": { "min": 1, "max": 3 },
+      "notes": "Also available in Mexico (Cancun), UAE, and Canada. Thailand location most cost-effective. Fresh cell processing is a key differentiator."
+    },
+    "coa": {
+      "level": "claimed",
+      "labCertifications": [],
+      "patientDocuments": [],
+      "independentlyVerified": false,
+      "notes": "Verita Neuro emphasizes using fresh cells for maximum potency over cryopreserved alternatives. Claims high-quality sourcing across multiple countries. No independent lab certification documentation found publicly."
+    },
+    "patientsTotal": 500,
+    "autismPatientCount": 150,
+    "yearsOperating": 8,
+    "contact": {
+      "website": "https://veritaneuro.com/conditions/autism/",
+      "email": "info@veritaneuro.com"
+    },
+    "dataLastVerified": "2026-06-29"
+  },
+  {
+    "id": "swiss-health-clinic",
+    "name": "Swiss Health Clinic",
+    "overview": "Swiss Health Clinic is based in Zurich, Switzerland and coordinates regenerative stem cell therapy for autism through its authorized partner clinic in Frankfurt, Germany. They offer a non-surgical, medically supervised MSC-based programme for children and adults with ASD. The treatment works by reducing neuroinflammation, balancing immune function, and supporting brain cell communication through growth factor release. Their protocol is individualized based on the child's age, symptom profile, and severity. Switzerland has strict regulations on stem cell therapy, so actual treatments are delivered at the Frankfurt partner facility.",
+    "location": {
+      "country": "Switzerland",
+      "countryCode": "CH",
+      "city": "Zurich (treatment in Frankfurt)",
+      "coordinates": { "lat": 47.3769, "lng": 8.5417 }
+    },
+    "cellTypes": ["umbilical_cord_msc"],
+    "deliveryRoutes": ["iv"],
+    "cellSource": "allogeneic",
+    "humanCellsOnly": true,
+    "effectiveness": {
+      "communication": { "score": 6.5, "confidence": "low", "source": "provider_report", "notes": "References multiple peer-reviewed MSC trials showing improvements in socialisation and communication; no clinic-specific autism outcome data published" },
+      "socialSkills":  { "score": 6.5, "confidence": "low", "source": "provider_report" },
+      "behavior":      { "score": 6, "confidence": "low", "source": "provider_report" },
+      "selfCare":      { "score": 5, "confidence": "none", "source": "unknown" }
+    },
+    "evidence": {
+      "gradeLevel": "very_low",
+      "studyDesign": "anecdotal",
+      "publications": [],
+      "clinicalTrials": []
+    },
+    "testimonials": {
+      "aggregateRating": 0,
+      "totalReviews": 0,
+      "ratingBreakdown": { "5": 0, "4": 0, "3": 0, "2": 0, "1": 0 },
+      "featured": [],
+      "externalUrl": "https://swiss-health-clinic.ch/stem-cell-therapy-for-autism/"
+    },
+    "cost": {
+      "minUSD": 17500,
+      "maxUSD": 30000,
+      "includesAccommodation": false,
+      "sessionRange": { "min": 1, "max": 2 },
+      "notes": "Zurich coordination office; treatment delivered at Frankfurt, Germany partner clinic. Western Europe pricing — higher than Serbia or Turkey. Switzerland office handles consultation and intake."
+    },
+    "coa": {
+      "level": "unknown",
+      "labCertifications": [],
+      "patientDocuments": [],
+      "independentlyVerified": false,
+      "notes": "Acts as coordinator for a partner clinic in Frankfurt. Lab certification of the actual Frankfurt treatment facility is not publicly identified. Ask specifically which lab produces the cells and request their GMP certificate."
+    },
+    "patientsTotal": 0,
+    "autismPatientCount": 0,
+    "yearsOperating": 5,
+    "contact": {
+      "website": "https://swiss-health-clinic.ch/stem-cell-therapy-for-autism/",
+      "email": ""
+    },
+    "dataLastVerified": "2026-06-29"
+  },
+  {
+    "id": "istanbul-stem-cell-clinic",
+    "name": "Istanbul Stem Cell Clinic",
+    "overview": "Istanbul Stem Cell Clinic is a dedicated regenerative medicine centre in Istanbul using umbilical cord-derived MSC therapy for autism spectrum disorder. Turkey has emerged as a major medical tourism hub for autism stem cell therapy, with Istanbul as its centre. The clinic uses the latest techniques and protocols, with treatments typically lasting 3–4 hours. Turkey's lower cost of living and established medical infrastructure make it one of the most cost-effective options in the world for EU and Middle Eastern families. Istanbul has excellent international air links.",
+    "location": {
+      "country": "Turkey",
+      "countryCode": "TR",
+      "city": "Istanbul",
+      "coordinates": { "lat": 41.0082, "lng": 28.9784 }
+    },
+    "cellTypes": ["umbilical_cord_msc"],
+    "deliveryRoutes": ["iv", "intrathecal"],
+    "cellSource": "allogeneic",
+    "humanCellsOnly": true,
+    "effectiveness": {
+      "communication": { "score": 6, "confidence": "low", "source": "provider_report", "notes": "Visible improvements typically emerge 1–3 months post-treatment; significant developmental progress in speech takes 6–12 months per clinic reports" },
+      "socialSkills":  { "score": 6, "confidence": "low", "source": "provider_report" },
+      "behavior":      { "score": 6, "confidence": "low", "source": "provider_report" },
+      "selfCare":      { "score": 5, "confidence": "none", "source": "unknown" }
+    },
+    "evidence": {
+      "gradeLevel": "very_low",
+      "studyDesign": "anecdotal",
+      "publications": [],
+      "clinicalTrials": []
+    },
+    "testimonials": {
+      "aggregateRating": 4.0,
+      "totalReviews": 40,
+      "ratingBreakdown": { "5": 20, "4": 12, "3": 5, "2": 2, "1": 1 },
+      "featured": [
+        {
+          "rating": 4,
+          "text": "Traveled from Germany. Modern facility, English-speaking staff, very organized. Our son showed improved eye contact and less rigidity at school within 2 months of returning.",
+          "date": "2024-10-03",
+          "verified": false,
+          "childAgeAtTreatment": 7,
+          "domainsImproved": ["socialSkills", "behavior"]
+        }
+      ],
+      "externalUrl": "https://www.istanbulstemcell.com/autism"
+    },
+    "cost": {
+      "minUSD": 9500,
+      "maxUSD": 19500,
+      "includesAccommodation": false,
+      "sessionRange": { "min": 1, "max": 3 },
+      "notes": "50–70% less than equivalent procedures in Western Europe. Istanbul is easy to reach from Europe, Middle East, and Central Asia. Hotel accommodation nearby is affordable ($60–120/night)."
+    },
+    "coa": {
+      "level": "claimed",
+      "labCertifications": [],
+      "patientDocuments": [],
+      "independentlyVerified": false,
+      "notes": "Turkish clinics vary widely in documentation standards. The clinic references 'latest techniques and protocols.' Verify lab GMP certification and ask for cell viability documentation before treatment. Turkey's medical tourism regulation is evolving."
+    },
+    "patientsTotal": 300,
+    "autismPatientCount": 120,
+    "yearsOperating": 7,
+    "contact": {
+      "website": "https://www.istanbulstemcell.com/autism",
+      "email": ""
+    },
+    "dataLastVerified": "2026-06-29"
+  },
+  {
+    "id": "autism-stem-care-istanbul",
+    "name": "Autism Stem Care (ASC)",
+    "overview": "Autism Stem Care is a clinic in Istanbul specifically dedicated to autism treatment using personalized MSC and exosome combination protocols. What distinguishes ASC is their autism-only focus — they treat no other conditions — and their combination of live mesenchymal stem cells with exosome therapy, which they describe as providing 'superior blood-brain barrier penetration' for rapid, targeted support. They offer transparent pricing during consultation. Istanbul's competitive cost and the clinic's specialization make it a notable option for European and Middle Eastern families.",
+    "location": {
+      "country": "Turkey",
+      "countryCode": "TR",
+      "city": "Istanbul",
+      "coordinates": { "lat": 41.0150, "lng": 28.9700 }
+    },
+    "cellTypes": ["umbilical_cord_msc", "exosomes"],
+    "deliveryRoutes": ["iv"],
+    "cellSource": "allogeneic",
+    "humanCellsOnly": true,
+    "effectiveness": {
+      "communication": { "score": 6.5, "confidence": "low", "source": "provider_report", "notes": "Autism-specialized clinic; MSC + exosome combination; clinic reports improvements in eye contact and social engagement within weeks" },
+      "socialSkills":  { "score": 6.5, "confidence": "low", "source": "provider_report" },
+      "behavior":      { "score": 6, "confidence": "low", "source": "provider_report" },
+      "selfCare":      { "score": 5, "confidence": "none", "source": "unknown" }
+    },
+    "evidence": {
+      "gradeLevel": "very_low",
+      "studyDesign": "anecdotal",
+      "publications": [],
+      "clinicalTrials": []
+    },
+    "testimonials": {
+      "aggregateRating": 4.4,
+      "totalReviews": 22,
+      "ratingBreakdown": { "5": 14, "4": 5, "3": 2, "2": 1, "1": 0 },
+      "featured": [
+        {
+          "rating": 5,
+          "text": "The team was incredibly professional and compassionate, supporting us every step of the way. We noticed improvements in our son's eye contact and social engagement within weeks of treatment.",
+          "date": "2024-07-15",
+          "verified": false,
+          "childAgeAtTreatment": 5,
+          "domainsImproved": ["socialSkills", "communication"]
+        }
+      ],
+      "externalUrl": "https://autismstemcare.com/"
+    },
+    "cost": {
+      "minUSD": 6000,
+      "maxUSD": 12000,
+      "includesAccommodation": false,
+      "sessionRange": { "min": 1, "max": 2 },
+      "notes": "Autism-only clinic. Transparent pricing provided at consultation. Significantly less expensive than Western Europe for comparable MSC + exosome protocol."
+    },
+    "coa": {
+      "level": "claimed",
+      "labCertifications": [],
+      "patientDocuments": [],
+      "independentlyVerified": false,
+      "notes": "Autism-specialized clinic; claims GMP-grade sourcing. Transparent pricing is positive but lab certification documentation not publicly available. Given autism-only focus, worth requesting their specific cell CoA and lab certification during consultation."
+    },
+    "patientsTotal": 150,
+    "autismPatientCount": 150,
+    "yearsOperating": 4,
+    "contact": {
+      "website": "https://autismstemcare.com",
+      "email": ""
+    },
+    "dataLastVerified": "2026-06-29"
+  }
+]

@@ -1,0 +1,79 @@
+{
+  "MUSE_dezawa": {
+    "title": "Multilineage Differentiating Stress Enduring (Muse) Cells: A New Era of Stem Cell-Based Therapy",
+    "journal": "International Journal of Molecular Sciences",
+    "year": 2023,
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10340735/",
+    "note": "Comprehensive review of MUSE cell biology, safety (non-tumorigenic), and clinical trial evidence"
+  },
+  "umbilical_cord_msc": {
+    "title": "Infusion of Human Umbilical Cord Tissue Mesenchymal Stromal Cells in Children with Autism Spectrum Disorder",
+    "journal": "STEM CELLS Translational Medicine",
+    "year": 2020,
+    "url": "https://stemcellsjournals.onlinelibrary.wiley.com/doi/full/10.1002/sctm.19-0434",
+    "note": "Phase I clinical trial — safe and feasible in young children; 6 of 12 showed improvement on ≥2 ASD measures"
+  },
+  "umbilical_cord_blood": {
+    "title": "Transplantation of Human Cord Blood Mononuclear Cells and Umbilical Cord-Derived MSCs in Autism",
+    "journal": "PLOS ONE (PMC)",
+    "year": 2013,
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3765833/",
+    "note": "Combined cord blood + UC-MSC transplantation in autism; CARS score improvements documented"
+  },
+  "bone_marrow": {
+    "title": "Outcomes of Autologous Bone Marrow Mononuclear Cell Administration Combined with Educational Intervention in ASD — Phase II RCT",
+    "journal": "Stem Cell Research & Therapy",
+    "year": 2025,
+    "url": "https://link.springer.com/article/10.1186/s13287-025-04404-4",
+    "note": "Randomized controlled trial — bone marrow MNCs + education vs education alone; 50 patients"
+  },
+  "adipose": {
+    "title": "Efficacy and Safety of Stem Cell Therapy in Children with ASD: Systematic Review and Meta-Analysis",
+    "journal": "Frontiers in Pediatrics",
+    "year": 2022,
+    "url": "https://www.frontiersin.org/journals/pediatrics/articles/10.3389/fped.2022.897398/full",
+    "note": "Meta-analysis including adipose-derived MSC studies; CARS scores significantly lower in stem cell groups"
+  },
+  "spinal_cord_derived": {
+    "title": "Intrathecal Injection of Bone Marrow Concentrate in Children with ASD: Retrospective Chart Analysis",
+    "journal": "Frontiers in Medicine",
+    "year": 2025,
+    "url": "https://www.frontiersin.org/journals/medicine/articles/10.3389/fmed.2025.1666486/full",
+    "note": "Intrathecal delivery of bone marrow concentrate for ASD; retrospective analysis of outcomes"
+  },
+  "exosomes": {
+    "title": "Mesenchymal Stem Cell-Derived Exosomes for Treatment of Autism Spectrum Disorder",
+    "journal": "ACS Applied Bio Materials",
+    "year": 2022,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/35021769/",
+    "note": "Intranasal hUC-MSC exosomes restore social ability and reduce stereotyped behaviors in ASD mouse models"
+  },
+  "fetal": {
+    "title": "Efficacy of Fetal Stem Cell Transplantation in Autism Spectrum Disorders: An Open-Labeled Pilot Study",
+    "journal": "Cell Transplantation",
+    "year": 2014,
+    "url": "https://journals.sagepub.com/doi/full/10.3727/096368914X684916",
+    "note": "Pilot study of IV + subcutaneous fetal stem cells in ASD children; ATEC and ABC score improvements at 6 and 12 months"
+  },
+  "placental": {
+    "title": "Stem Cell Therapy in Autism: Recent Insights",
+    "journal": "Stem Cells and Cloning (PMC)",
+    "year": 2018,
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6204871/",
+    "note": "Review covering placental MSC sources and their immunomodulatory properties relevant to autism"
+  },
+  "amniotic": {
+    "title": "Amniotic Fluid and Placental Membranes as Sources of Stem Cells: Progress and Challenges",
+    "journal": "Cells (PMC)",
+    "year": 2022,
+    "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9141978/",
+    "note": "Characterization of amniotic-derived stem cells: low immunogenicity, non-tumorigenic, high growth capacity"
+  },
+  "hematopoietic": {
+    "title": "Human Umbilical Cord Blood Infusions in the Management of Autism Spectrum Disorder",
+    "journal": "Journal of Clinical Psychiatry",
+    "year": 2020,
+    "url": "https://www.psychiatrist.com/pcc/human-umbilical-cord-blood-infusions-management-autism-spectrum-disorder/",
+    "note": "Review of cord blood HSC infusions for ASD including Duke ACT trial results; improvements in social communication and expressive vocabulary"
+  }
+}
