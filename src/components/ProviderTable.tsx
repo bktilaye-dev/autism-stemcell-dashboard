@@ -97,6 +97,7 @@ export function ProviderTable({ providers, allProviders }: Props) {
       if (filters.cellType && !p.cellTypes.includes(filters.cellType as any)) return false
       if (filters.evidenceGrade && p.evidence.gradeLevel !== filters.evidenceGrade) return false
       if (filters.deliveryRoute && !p.deliveryRoutes.includes(filters.deliveryRoute as any)) return false
+      if (filters.offersFMT && (p.offersFMT ? 'yes' : 'no') !== filters.offersFMT) return false
       if (filters.maxCostUSD < 100000 && p.cost.minUSD > filters.maxCostUSD) return false
       if (filters.search) {
         const q = filters.search.toLowerCase()
@@ -257,6 +258,29 @@ export function ProviderTable({ providers, allProviders }: Props) {
                   <span className="text-xs text-gray-600">{score.toFixed(1)}</span>
                 </div>
               )}
+            </div>
+          )
+        },
+      }),
+      col.accessor((p) => p.offersFMT, {
+        id: 'offersFMT',
+        header: 'FMT',
+        meta: { className: 'hidden md:table-cell' },
+        cell: ({ row }) => {
+          const p = row.original
+          const note = p.fmtNotes
+          return (
+            <div className="space-y-1 min-w-[100px] max-w-[220px]">
+              <span
+                className={`inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium border ${
+                  p.offersFMT
+                    ? 'bg-green-100 text-green-800 border-green-200'
+                    : 'bg-gray-100 text-gray-500 border-gray-200'
+                }`}
+              >
+                {p.offersFMT ? 'Yes' : 'No'}
+              </span>
+              {note && <p className="text-xs text-gray-500 leading-snug line-clamp-3">{note}</p>}
             </div>
           )
         },

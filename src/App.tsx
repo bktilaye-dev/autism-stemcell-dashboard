@@ -22,6 +22,7 @@ function Dashboard() {
       if (filters.cellType && !p.cellTypes.includes(filters.cellType as any)) return false
       if (filters.evidenceGrade && p.evidence.gradeLevel !== filters.evidenceGrade) return false
       if (filters.deliveryRoute && !p.deliveryRoutes.includes(filters.deliveryRoute as any)) return false
+      if (filters.offersFMT && (p.offersFMT ? 'yes' : 'no') !== filters.offersFMT) return false
       if (filters.maxCostUSD < 100000 && p.cost.minUSD > filters.maxCostUSD) return false
       if (filters.search) {
         const q = filters.search.toLowerCase()

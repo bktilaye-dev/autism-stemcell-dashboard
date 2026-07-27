@@ -63,6 +63,9 @@ const emptyProvider = (): Omit<Provider, 'humanCellsOnly'> => ({
   cellTypes: [],
   deliveryRoutes: [],
   cellSource: 'allogeneic',
+  offersFMT: false,
+  fmtNotes: '',
+  regulatoryNotes: '',
   effectiveness: {
     communication: { score: 0, confidence: 'none', source: 'unknown' },
     socialSkills:   { score: 0, confidence: 'none', source: 'unknown' },
@@ -324,6 +327,30 @@ function AdminForm() {
                   </Field>
                 </div>
               ))}
+            </div>
+          </section>
+
+          {/* FMT */}
+          <section>
+            <h2 className="text-base font-semibold text-gray-800 mb-4 pb-2 border-b">Fecal Microbiota Transplant (FMT)</h2>
+            <div className="space-y-4">
+              <Field label="Offers FMT alongside stem cell therapy">
+                <label className="flex items-center gap-2 cursor-pointer">
+                  <input
+                    type="checkbox"
+                    checked={form.offersFMT}
+                    onChange={(e) => set('offersFMT', e.target.checked)}
+                    className="w-4 h-4 accent-blue-600"
+                  />
+                  <span className="text-sm text-gray-700">Clinic offers FMT as part of its autism protocol</span>
+                </label>
+              </Field>
+              <Field label="FMT Notes" hint="Confidence, sourcing, delivery method, caveats">
+                <Textarea value={form.fmtNotes ?? ''} onChange={(v) => set('fmtNotes', v)} rows={2} />
+              </Field>
+              <Field label="Regulatory Notes" hint="Any known legal/regulatory risk flags for this clinic's jurisdiction">
+                <Textarea value={form.regulatoryNotes ?? ''} onChange={(v) => set('regulatoryNotes', v)} rows={2} />
+              </Field>
             </div>
           </section>
 

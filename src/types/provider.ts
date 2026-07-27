@@ -104,6 +104,9 @@ export interface Provider {
   deliveryRoutes: DeliveryRoute[]
   cellSource: CellSource
   humanCellsOnly: true
+  offersFMT: boolean
+  fmtNotes?: string
+  regulatoryNotes?: string
 
   effectiveness: {
     communication: DomainScore

@@ -37,6 +37,12 @@ const routeOptions = [
   { value: 'intramuscular', label: 'Intramuscular' },
 ]
 
+const fmtOptions = [
+  { value: '', label: 'FMT: All' },
+  { value: 'yes', label: 'Offers FMT' },
+  { value: 'no', label: 'No FMT' },
+]
+
 export function FilterBar({ providers }: Props) {
   const { filters, setFilter, resetFilters } = useDashboardStore()
 
@@ -47,6 +53,7 @@ export function FilterBar({ providers }: Props) {
     filters.cellType !== '' ||
     filters.evidenceGrade !== '' ||
     filters.deliveryRoute !== '' ||
+    filters.offersFMT !== '' ||
     filters.maxCostUSD < 100000 ||
     filters.search !== ''
 
@@ -112,6 +119,19 @@ export function FilterBar({ providers }: Props) {
             className="border border-gray-300 rounded px-2.5 py-1.5 text-sm focus:outline-none focus:ring-2 focus:ring-blue-400"
           >
             {evidenceOptions.map((o) => (
+              <option key={o.value} value={o.value}>{o.label}</option>
+            ))}
+          </select>
+        </div>
+
+        <div className="flex flex-col gap-1">
+          <label className="text-xs text-gray-500 font-medium">FMT</label>
+          <select
+            value={filters.offersFMT}
+            onChange={(e) => setFilter('offersFMT', e.target.value as any)}
+            className="border border-gray-300 rounded px-2.5 py-1.5 text-sm focus:outline-none focus:ring-2 focus:ring-blue-400"
+          >
+            {fmtOptions.map((o) => (
               <option key={o.value} value={o.value}>{o.label}</option>
             ))}
           </select>

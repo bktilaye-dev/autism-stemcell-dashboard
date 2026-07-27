@@ -13,6 +13,7 @@
     "deliveryRoutes": ["iv"],
     "cellSource": "allogeneic",
     "humanCellsOnly": true,
+    "offersFMT": false,
     "effectiveness": {
       "communication": { "score": 0, "confidence": "none", "source": "unknown", "notes": "No autism-specific published outcome data yet" },
       "socialSkills":  { "score": 0, "confidence": "none", "source": "unknown", "notes": "No autism-specific published outcome data yet" },
@@ -86,6 +87,7 @@
     "deliveryRoutes": ["iv"],
     "cellSource": "allogeneic",
     "humanCellsOnly": true,
+    "offersFMT": false,
     "effectiveness": {
       "communication": { "score": 7, "confidence": "medium", "source": "published_study", "sampleSize": 20, "notes": "Significant language gains reported in parent-reported outcomes; case series published" },
       "socialSkills":  { "score": 6.5, "confidence": "medium", "source": "published_study", "sampleSize": 20, "notes": "Improvements in eye contact and peer interaction noted" },
@@ -168,6 +170,7 @@
     "deliveryRoutes": ["iv"],
     "cellSource": "allogeneic",
     "humanCellsOnly": true,
+    "offersFMT": false,
     "effectiveness": {
       "communication": { "score": 5.5, "confidence": "low", "source": "provider_report", "notes": "Clinic-reported improvements; no peer-reviewed autism-specific publications" },
       "socialSkills":  { "score": 5, "confidence": "low", "source": "provider_report" },
@@ -240,6 +243,8 @@
     "deliveryRoutes": ["intrathecal", "iv"],
     "cellSource": "autologous",
     "humanCellsOnly": true,
+    "offersFMT": false,
+    "regulatoryNotes": "India's National Medical Commission (NMC) issued an advisory in March 2026 — following a February 2026 Supreme Court judgment and ICMR recommendations — declaring stem cell therapy illegal for any indication outside 32 approved diseases (e.g. leukemia, thalassemia, multiple sclerosis). Autism is not on that approved list. This clinic's autism stem cell program appears to fall outside the newly restricted scope; verify current legal/regulatory status directly with the clinic before proceeding.",
     "effectiveness": {
       "communication": { "score": 7.5, "confidence": "high", "source": "published_study", "sampleSize": 150, "notes": "Language and communication improvements documented on ATEC subscale in published cohort" },
       "socialSkills":  { "score": 7, "confidence": "high", "source": "published_study", "sampleSize": 150, "notes": "Social interaction improvements measured on CARS and ATEC social subscales" },
@@ -331,6 +336,8 @@
     "deliveryRoutes": ["iv", "intrathecal"],
     "cellSource": "both",
     "humanCellsOnly": true,
+    "offersFMT": false,
+    "regulatoryNotes": "India's National Medical Commission (NMC) issued an advisory in March 2026 — following a February 2026 Supreme Court judgment and ICMR recommendations — declaring stem cell therapy illegal for any indication outside 32 approved diseases (e.g. leukemia, thalassemia, multiple sclerosis). Autism is not on that approved list. This clinic's autism stem cell program appears to fall outside the newly restricted scope; verify current legal/regulatory status directly with the clinic before proceeding.",
     "effectiveness": {
       "communication": { "score": 6, "confidence": "low", "source": "provider_report", "notes": "Clinic-reported improvements in language and communication" },
       "socialSkills":  { "score": 5.5, "confidence": "low", "source": "provider_report" },
@@ -403,6 +410,8 @@
     "deliveryRoutes": ["iv"],
     "cellSource": "allogeneic",
     "humanCellsOnly": true,
+    "offersFMT": false,
+    "regulatoryNotes": "India's National Medical Commission (NMC) issued an advisory in March 2026 — following a February 2026 Supreme Court judgment and ICMR recommendations — declaring stem cell therapy illegal for any indication outside 32 approved diseases (e.g. leukemia, thalassemia, multiple sclerosis). Autism is not on that approved list. This clinic's autism stem cell program appears to fall outside the newly restricted scope; verify current legal/regulatory status directly with the clinic before proceeding.",
     "effectiveness": {
       "communication": { "score": 5.5, "confidence": "low", "source": "provider_report" },
       "socialSkills":  { "score": 5, "confidence": "low", "source": "provider_report" },
@@ -468,12 +477,8 @@
     "deliveryRoutes": ["iv", "intrathecal"],
     "cellSource": "allogeneic",
     "humanCellsOnly": true,
-    "effectiveness": {
-      "communication": { "score": 6.5, "confidence": "low", "source": "provider_report", "notes": "Provider-reported improvements across large patient cohort; no peer-reviewed autism RCT published" },
-      "socialSkills":  { "score": 6, "confidence": "low", "source": "provider_report" },
-      "behavior":      { "score": 6, "confidence": "low", "source": "provider_report" },
-      "selfCare":      { "score": 5.5, "confidence": "none", "source": "unknown" }
-    },
+    "offersFMT": true,
+    "fmtNotes": "Confirmed on Beike's own site: their autism page states \"Stem cells, transcranial magnetic stimulation and microbiome therapy in one protocol,\" and they operate a dedicated Fecal Microbiota Transplant (FMT) supportive-therapy page that names autism as a target condition. Most patients receive 5–10 FMT doses, delivered via colonoscope/endoscope solution, enema, or oral enteric capsules. A cited 2017 study of 18 ASD children (ages 7–17) reported an 80% reduction in GI symptoms plus behavioral improvement — the FMT+SCT link is a bundled package of complementary services rather than a single protocol with its own combined outcome data.",
     "evidence": {
       "gradeLevel": "very_low",
       "studyDesign": "case_series",
@@ -525,7 +530,7 @@
       "website": "https://beikecelltherapy.com",
       "email": "info@beikecelltherapy.com"
     },
-    "dataLastVerified": "2026-06-29"
+    "dataLastVerified": "2026-07-26"
   },
   {
     "id": "mardaleishvili-georgia",
@@ -541,6 +546,7 @@
     "deliveryRoutes": ["iv"],
     "cellSource": "autologous",
     "humanCellsOnly": true,
+    "offersFMT": false,
     "effectiveness": {
       "communication": { "score": 6.5, "confidence": "low", "source": "provider_report", "notes": "Clinic reports measurable improvements; limited independent peer-reviewed data available" },
       "socialSkills":  { "score": 6, "confidence": "low", "source": "provider_report" },
@@ -606,6 +612,7 @@
     "deliveryRoutes": ["iv"],
     "cellSource": "allogeneic",
     "humanCellsOnly": true,
+    "offersFMT": false,
     "effectiveness": {
       "communication": { "score": 7, "confidence": "low", "source": "provider_report", "sampleSize": 461, "notes": "Internal review of 461 children; not peer-reviewed but largest autism MSC+exosome dataset from a single clinic" },
       "socialSkills":  { "score": 7.5, "confidence": "low", "source": "provider_report", "sampleSize": 461 },
@@ -686,6 +693,7 @@
     "deliveryRoutes": ["iv", "intranasal", "intramuscular"],
     "cellSource": "allogeneic",
     "humanCellsOnly": true,
+    "offersFMT": false,
     "effectiveness": {
       "communication": { "score": 7, "confidence": "low", "source": "provider_report", "sampleSize": 600, "notes": "86.1% improvement rate reported across 600+ autism patients since 1994; not peer-reviewed" },
       "socialSkills":  { "score": 6.5, "confidence": "low", "source": "provider_report", "sampleSize": 600 },
@@ -751,6 +759,7 @@
     "deliveryRoutes": ["intranasal", "iv"],
     "cellSource": "allogeneic",
     "humanCellsOnly": true,
+    "offersFMT": false,
     "effectiveness": {
       "communication": { "score": 7.5, "confidence": "low", "source": "provider_report", "notes": "Over 80% improvement rate reported by clinic; intranasal delivery may enhance CNS penetration" },
       "socialSkills":  { "score": 7, "confidence": "low", "source": "provider_report" },
@@ -822,12 +831,8 @@
     "deliveryRoutes": ["iv"],
     "cellSource": "allogeneic",
     "humanCellsOnly": true,
-    "effectiveness": {
-      "communication": { "score": 6.5, "confidence": "low", "source": "provider_report", "notes": "Fresh UC-MSCs claimed to offer higher potency than frozen alternatives; improvements reported in communication and social engagement" },
-      "socialSkills":  { "score": 6.5, "confidence": "low", "source": "provider_report" },
-      "behavior":      { "score": 6, "confidence": "low", "source": "provider_report" },
-      "selfCare":      { "score": 5, "confidence": "none", "source": "unknown" }
-    },
+    "offersFMT": false,
+    "fmtNotes": "A third-party medical-tourism aggregator article claims FMT \"can be combined with cell therapy and detoxification treatments offered in Bangkok, Thailand,\" but this is not stated on veritaneuro.com itself. Their own autism page mentions gut microbiome only as a mechanism of the stem cells themselves (\"restoring gut microbiome balance\"), not an actual fecal transplant procedure — not counted as a confirmed FMT offering.",
     "evidence": {
       "gradeLevel": "very_low",
       "studyDesign": "anecdotal",
@@ -871,7 +876,7 @@
       "website": "https://veritaneuro.com/conditions/autism/",
       "email": "info@veritaneuro.com"
     },
-    "dataLastVerified": "2026-06-29"
+    "dataLastVerified": "2026-07-26"
   },
   {
     "id": "swiss-health-clinic",
@@ -887,6 +892,7 @@
     "deliveryRoutes": ["iv"],
     "cellSource": "allogeneic",
     "humanCellsOnly": true,
+    "offersFMT": false,
     "effectiveness": {
       "communication": { "score": 6.5, "confidence": "low", "source": "provider_report", "notes": "References multiple peer-reviewed MSC trials showing improvements in socialisation and communication; no clinic-specific autism outcome data published" },
       "socialSkills":  { "score": 6.5, "confidence": "low", "source": "provider_report" },
@@ -943,6 +949,7 @@
     "deliveryRoutes": ["iv", "intrathecal"],
     "cellSource": "allogeneic",
     "humanCellsOnly": true,
+    "offersFMT": false,
     "effectiveness": {
       "communication": { "score": 6, "confidence": "low", "source": "provider_report", "notes": "Visible improvements typically emerge 1–3 months post-treatment; significant developmental progress in speech takes 6–12 months per clinic reports" },
       "socialSkills":  { "score": 6, "confidence": "low", "source": "provider_report" },
@@ -1008,6 +1015,7 @@
     "deliveryRoutes": ["iv"],
     "cellSource": "allogeneic",
     "humanCellsOnly": true,
+    "offersFMT": false,
     "effectiveness": {
       "communication": { "score": 6.5, "confidence": "low", "source": "provider_report", "notes": "Autism-specialized clinic; MSC + exosome combination; clinic reports improvements in eye contact and social engagement within weeks" },
       "socialSkills":  { "score": 6.5, "confidence": "low", "source": "provider_report" },
@@ -1057,7 +1065,7 @@
       "website": "https://autismstemcare.com",
       "email": ""
     },
-    "dataLastVerified": "2026-06-29"
+    "dataLastVerified": "2026-07-26"
   },
   {
     "id": "bioxcellerator-colombia",
@@ -1073,6 +1081,8 @@
     "deliveryRoutes": ["iv", "intrathecal"],
     "cellSource": "allogeneic",
     "humanCellsOnly": true,
+    "offersFMT": false,
+    "fmtNotes": "BioXcellerator's website does mention FMT (fecal microbiota transplant), but only in the context of treating ulcerative colitis — not as part of their autism protocol. No FMT+autism combination found.",
     "effectiveness": {
       "communication": { "score": 6.5, "confidence": "low", "source": "provider_report", "notes": "Clinic reports improvements in language, eye contact, and attention; case report data published on website; no peer-reviewed autism RCT" },
       "socialSkills":  { "score": 6.5, "confidence": "low", "source": "provider_report", "notes": "Reported improvements in social engagement and peer interaction" },
@@ -1131,7 +1141,7 @@
       "email": "info@bioxcellerator.com",
       "phone": "+1-888-567-2469"
     },
-    "dataLastVerified": "2026-06-29"
+    "dataLastVerified": "2026-07-26"
   },
   {
     "id": "regenamex-mexico",
@@ -1147,6 +1157,7 @@
     "deliveryRoutes": ["iv", "intrathecal"],
     "cellSource": "allogeneic",
     "humanCellsOnly": true,
+    "offersFMT": false,
     "effectiveness": {
       "communication": { "score": 5.5, "confidence": "low", "source": "provider_report", "notes": "Clinic reports 'longer attention spans, increased vocabulary, greater eye contact' — no quantitative scale data published; improvements typically observed at 3–6 months" },
       "socialSkills":  { "score": 5.5, "confidence": "low", "source": "provider_report", "notes": "Clinic reports improvements in social engagement and emotional regulation; no CARS or ATEC scores published" },
@@ -1225,6 +1236,8 @@
     "deliveryRoutes": ["iv", "intrathecal"],
     "cellSource": "both",
     "humanCellsOnly": true,
+    "offersFMT": false,
+    "fmtNotes": "Linden Clinics has a blog article, \"Therapies in Autism: From Stem Cells to Microbiome Research,\" discussing gut microbiota research in autism generally and mentioning \"probiotic support\" and \"microbiome-focused strategies\" — but it does not name FMT/fecal microbiota transplant specifically as a clinic-administered procedure, and no site-restricted search for FMT terms returned any indexed results. Not counted as a confirmed FMT offering.",
     "effectiveness": {
       "communication": { "score": 6, "confidence": "low", "source": "provider_report", "notes": "Clinic's published success stories cite cases of first words and emerging sentences at 3-12 months post-treatment; no standardized outcome scale (e.g. CARS, ATEC) published" },
       "socialSkills":  { "score": 6, "confidence": "low", "source": "provider_report", "notes": "Improved eye contact and response-to-name reported anecdotally by parents" },
@@ -1280,6 +1293,139 @@
     "contact": {
       "website": "https://lindenclinics.com"
     },
-    "dataLastVerified": "2026-07-02"
+    "dataLastVerified": "2026-07-26"
+  },
+  {
+    "id": "regeneration-clinic-panama",
+    "name": "Regeneration Clinic (ABC Protocol)",
+    "overview": "Regeneration Clinic of Panama (also called Regenerate Panama), based in the Sortis Business Tower in Panama City, offers Wharton's Jelly umbilical cord MSC infusions in-house. For autism specifically, they co-market a three-stage \"ABC Protocol\" with two outside partners under a joint microsite (theabcofautism.com): Stage A is microbiome restoration via a partner called \"Aflora,\" including FMT (fecal microbiota transplant), described as intended to prepare the gut to be receptive to the stem cell stage; Stage B is MeRT/neurofeedback via a partner called \"BTC\"; Stage C is the IV Wharton's Jelly MSC infusion, performed at Regeneration Clinic itself. This is a real, operating clinic with a named medical director and physical address, but the combined FMT+SCT program is a loosely coordinated multi-vendor marketing package rather than a single in-house, clinically documented protocol — no FMT delivery method, session counts, independent outcome data, or lab certification were found publicly.",
+    "location": {
+      "country": "Panama",
+      "countryCode": "PA",
+      "city": "Panama City",
+      "coordinates": { "lat": 8.988, "lng": -79.520 }
+    },
+    "cellTypes": ["umbilical_cord_msc"],
+    "deliveryRoutes": ["iv"],
+    "cellSource": "allogeneic",
+    "humanCellsOnly": true,
+    "offersFMT": true,
+    "fmtNotes": "FMT (Stage A of the \"ABC Protocol\") is not performed in-house by Regeneration Clinic — it's outsourced to a third party, \"Aflora,\" bundled with a second third party (\"BTC,\" MeRT/neurofeedback) under a joint marketing microsite (theabcofautism.com) separate from the clinic's own domain (regeneratepanama.com). Only the IV stem cell infusion (Stage C) happens at Regeneration Clinic itself. No FMT delivery method, session count, independent clinical evidence, or lab certification for the FMT component could be found. Aflora is described on-site as \"a pioneer in FMT... in the world in children with ASD.\" Treat this as a coordinated package sold under joint branding, not a single clinic's integrated protocol.",
+    "effectiveness": {
+      "communication": { "score": 0, "confidence": "none", "source": "unknown", "notes": "No sample size, clinical trial, or clinic-specific outcome data found for the ABC Protocol or its autism patients" },
+      "socialSkills":  { "score": 0, "confidence": "none", "source": "unknown" },
+      "behavior":      { "score": 0, "confidence": "none", "source": "unknown" },
+      "selfCare":      { "score": 0, "confidence": "none", "source": "unknown" }
+    },
+    "evidence": {
+      "gradeLevel": "very_low",
+      "studyDesign": "anecdotal",
+      "publications": [],
+      "clinicalTrials": []
+    },
+    "testimonials": {
+      "aggregateRating": 0,
+      "totalReviews": 0,
+      "ratingBreakdown": { "5": 0, "4": 0, "3": 0, "2": 0, "1": 0 },
+      "featured": [],
+      "externalUrl": "https://regeneratepanama.com/testimonials/"
+    },
+    "cost": {
+      "minUSD": 10000,
+      "maxUSD": 30000,
+      "includesAccommodation": false,
+      "sessionRange": { "min": 1, "max": 5 },
+      "notes": "General clinic price range ($10,000–$30,000) covering airport transportation, bloodwork, IVs, and stem cell infusions for a 3–7 day stay — NOT confirmed as specific to the combined FMT+MeRT+stem cell autism package, which the site separately describes as spanning roughly 5 weeks of on-site treatment (an inconsistency between pages). Accommodation via partner Sortis Hotel, booked separately."
+    },
+    "coa": {
+      "level": "unknown",
+      "labCertifications": [],
+      "patientDocuments": [],
+      "independentlyVerified": false,
+      "notes": "No ISO certification, GMP compliance statement, or regulatory accreditation found for Regeneration Clinic's laboratory on any page checked. Do not confuse with the separate Panama City clinic \"Stem Cell Institute\" (cellmedicine.com), which does hold ISO 9001/GMP certification — that credential belongs to a different clinic and should not be attributed here."
+    },
+    "patientsTotal": 0,
+    "autismPatientCount": 0,
+    "contact": {
+      "website": "https://regeneratepanama.com",
+      "email": "info@regeneratepanama.com",
+      "phone": "+1-323-425-8385"
+    },
+    "dataLastVerified": "2026-07-26"
+  },
+  {
+    "id": "chaitanya-stemcell-pune",
+    "name": "Chaitanya Stem-Cell Centre",
+    "overview": "Chaitanya Stem-Cell Centre (part of Universal Hospital) in Pune, India offers both an autism stem cell protocol (umbilical cord MSCs and bone marrow cells; delivery route and cell sourcing model not clearly specified) and a separately listed FMT (fecal microbiota transplant) page nested under their autism-treatment site navigation. The two are not described anywhere as one combined bundled protocol — they read as cross-marketed separate service lines aimed at the same autism patient audience. Their FMT page cites \"80%+ resolve\" and \"84% improvement in core ASD symptoms\" statistics that loosely echo but misattribute/distort the real (unaffiliated) Kang et al. Microbiota Transfer Therapy studies (n=18 children, GI-symptom-focused), without naming any study, author, or citation. IMPORTANT: as of March 2026, India's National Medical Commission declared stem cell therapy illegal for autism (restricted to 32 approved conditions following a Feb 2026 Supreme Court ruling) — this clinic's live marketing of autism stem cell therapy appears to be in tension with that ruling.",
+    "location": {
+      "country": "India",
+      "countryCode": "IN",
+      "city": "Pune",
+      "coordinates": { "lat": 18.5212, "lng": 73.8595 }
+    },
+    "cellTypes": ["umbilical_cord_msc", "bone_marrow"],
+    "deliveryRoutes": ["iv"],
+    "cellSource": "allogeneic",
+    "humanCellsOnly": true,
+    "offersFMT": true,
+    "fmtNotes": "FMT is offered as a separate page/service (four delivery methods named: colonoscopy, enema, capsules, nasogastric tube; no session count or autism-specific delivery route specified) nested under the site's Autism Treatment navigation, cross-marketed to autism patients but not documented as bundled into one bought-together protocol with the stem cell service. The \"80%+ resolve\" and \"84% improvement in core ASD symptoms\" claims are not attributed to any named study — they loosely echo Kang et al. 2017/2019 Microbiota Transfer Therapy research (n=18, GI-symptom-focused, unaffiliated with this clinic) but the numbers don't cleanly match the published figures. Treat as unsourced marketing claims.",
+    "regulatoryNotes": "India's National Medical Commission (NMC) issued an advisory in March 2026 — following a February 2026 Supreme Court judgment and ICMR recommendations — declaring stem cell therapy illegal for any indication outside 32 approved diseases. Autism is not on that list; the advisory explicitly called out private clinics in metropolitan and tier-2 cities marketing unproven stem cell treatments for autism and cerebral palsy. This clinic (Pune, a tier-2 city) was still actively marketing autism stem cell therapy on its live site as of this review (July 2026) — verify current legal status directly before proceeding.",
+    "effectiveness": {
+      "communication": { "score": 0, "confidence": "none", "source": "unknown", "notes": "No session counts, delivery route, or outcome-scale data published; only uncorroborated patient testimonials" },
+      "socialSkills":  { "score": 0, "confidence": "none", "source": "unknown" },
+      "behavior":      { "score": 0, "confidence": "none", "source": "unknown" },
+      "selfCare":      { "score": 0, "confidence": "none", "source": "unknown" }
+    },
+    "evidence": {
+      "gradeLevel": "very_low",
+      "studyDesign": "anecdotal",
+      "publications": [],
+      "clinicalTrials": []
+    },
+    "testimonials": {
+      "aggregateRating": 3.5,
+      "totalReviews": 42,
+      "ratingBreakdown": { "5": 15, "4": 10, "3": 12, "2": 3, "1": 2 },
+      "featured": [
+        {
+          "rating": 4.5,
+          "text": "Six-year-old son was unable to speak. Within 7 days of treatment he could count 1-5, showed improved eye contact, and reduced hyperactivity.",
+          "date": "2024-01-10",
+          "verified": false,
+          "childAgeAtTreatment": 6,
+          "domainsImproved": ["communication", "behavior"]
+        },
+        {
+          "rating": 3.5,
+          "text": "Eight-year-old son with ADHD/autism was constantly running and screaming before treatment; started sitting still, giving eye contact, and responding to calls afterward.",
+          "date": "2023-11-02",
+          "verified": false,
+          "childAgeAtTreatment": 8,
+          "domainsImproved": ["behavior", "socialSkills"]
+        }
+      ],
+      "externalUrl": "https://chaitanyastemcell.com/testimonials-2/"
+    },
+    "cost": {
+      "minUSD": 0,
+      "maxUSD": 0,
+      "includesAccommodation": false,
+      "sessionRange": { "min": 1, "max": 1 },
+      "notes": "No pricing disclosed publicly for either the stem cell or FMT service; site references a downloadable brochure not accessible during research. Industry-wide autism stem cell cost ranges from aggregators ($4,000–$25,000) exist but are not clinic-specific — do not treat as confirmed pricing."
+    },
+    "coa": {
+      "level": "claimed",
+      "labCertifications": ["ISO Certified (claimed)", "FDA-approved technology (claimed)"],
+      "patientDocuments": [],
+      "independentlyVerified": false,
+      "notes": "Site self-claims \"ISO Certified\" and \"FDA-approved technology\" with no certificate numbers, issuing bodies, CDSCO/ICMR/NABL accreditation, or independent verification found. Given the March 2026 NMC advisory restricting autism stem cell therapy in India, this entry carries meaningfully higher regulatory risk than other providers on this list."
+    },
+    "patientsTotal": 4000,
+    "yearsOperating": 14,
+    "contact": {
+      "website": "https://chaitanyastemcell.com",
+      "phone": "+91-9011111222"
+    },
+    "dataLastVerified": "2026-07-26"
   }
 ]

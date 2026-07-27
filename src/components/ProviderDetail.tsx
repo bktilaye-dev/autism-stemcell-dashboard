@@ -131,6 +131,33 @@ export function ProviderDetail({ provider }: Props) {
             </div>
           </div>
 
+          {/* FMT */}
+          <div>
+            <h3 className="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-2">Fecal Microbiota Transplant (FMT)</h3>
+            <div className="bg-gray-50 rounded-lg p-3 border border-gray-200 space-y-2">
+              <span
+                className={`inline-flex items-center px-2 py-0.5 rounded-full text-xs font-medium border ${
+                  provider.offersFMT
+                    ? 'bg-green-100 text-green-800 border-green-200'
+                    : 'bg-gray-100 text-gray-500 border-gray-200'
+                }`}
+              >
+                {provider.offersFMT ? 'Offers FMT' : 'No FMT offered'}
+              </span>
+              {provider.fmtNotes && <p className="text-sm text-gray-600 leading-relaxed">{provider.fmtNotes}</p>}
+            </div>
+          </div>
+
+          {/* Regulatory notes */}
+          {provider.regulatoryNotes && (
+            <div>
+              <h3 className="text-xs font-semibold text-red-600 uppercase tracking-wide mb-2">⚠ Regulatory Notice</h3>
+              <div className="bg-red-50 rounded-lg p-3 border border-red-200">
+                <p className="text-sm text-red-800 leading-relaxed">{provider.regulatoryNotes}</p>
+              </div>
+            </div>
+          )}
+
           {/* Certificate of Authenticity */}
           <div>
             <h3 className="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-3">Certificate of Authenticity</h3>

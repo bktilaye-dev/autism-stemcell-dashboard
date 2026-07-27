@@ -6,6 +6,7 @@ interface Filters {
   cellType: CellType | ''
   evidenceGrade: EvidenceGrade | ''
   deliveryRoute: DeliveryRoute | ''
+  offersFMT: '' | 'yes' | 'no'
   maxCostUSD: number
   search: string
 }
@@ -29,6 +30,7 @@ const defaultFilters: Filters = {
   cellType: '',
   evidenceGrade: '',
   deliveryRoute: '',
+  offersFMT: '',
   maxCostUSD: 100000,
   search: '',
 }
