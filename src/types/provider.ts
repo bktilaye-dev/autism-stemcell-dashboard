@@ -98,6 +98,12 @@ export interface Branch {
   note?: string
 }
 
+export interface ProcedureDetails {
+  method: string
+  durationDays?: { min: number; max: number }
+  durationNotes?: string
+}
+
 export interface Provider {
   id: string
   name: string
@@ -149,6 +155,7 @@ export interface Provider {
 
   coa: CertificateOfAuthenticity
   museCellClaim?: MuseCellClaim
+  procedure: ProcedureDetails
 
   patientsTotal: number
   autismPatientCount?: number

@@ -131,6 +131,32 @@ export function ProviderDetail({ provider }: Props) {
             </div>
           </div>
 
+          {/* Procedure Details */}
+          <div>
+            <h3 className="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-2">Procedure Details</h3>
+            <div className="bg-gray-50 rounded-lg p-3 border border-gray-200 space-y-2">
+              <div>
+                <div className="text-xs font-medium text-gray-500 mb-0.5">Method of Application</div>
+                <p className="text-sm text-gray-700 leading-relaxed">{provider.procedure.method}</p>
+              </div>
+              <div>
+                <div className="text-xs font-medium text-gray-500 mb-0.5">Treatment Duration</div>
+                {provider.procedure.durationDays ? (
+                  <p className="text-sm text-gray-700">
+                    {provider.procedure.durationDays.min === provider.procedure.durationDays.max
+                      ? `${provider.procedure.durationDays.min} day${provider.procedure.durationDays.min === 1 ? '' : 's'}`
+                      : `${provider.procedure.durationDays.min}–${provider.procedure.durationDays.max} days`}
+                  </p>
+                ) : (
+                  <p className="text-sm text-gray-400">Not publicly specified</p>
+                )}
+                {provider.procedure.durationNotes && (
+                  <p className="text-xs text-gray-500 mt-1 leading-relaxed">{provider.procedure.durationNotes}</p>
+                )}
+              </div>
+            </div>
+          </div>
+
           {/* FMT */}
           <div>
             <h3 className="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-2">Fecal Microbiota Transplant (FMT)</h3>

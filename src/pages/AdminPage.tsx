@@ -75,6 +75,7 @@ const emptyProvider = (): Omit<Provider, 'humanCellsOnly'> => ({
   },
   evidence: { gradeLevel: 'unrated', studyDesign: 'none', publications: [], clinicalTrials: [] },
   coa: { level: 'unknown', labCertifications: [], patientDocuments: [], independentlyVerified: false, notes: '' },
+  procedure: { method: '', durationNotes: '' },
   testimonials: {
     aggregateRating: 0, totalReviews: 0,
     ratingBreakdown: { '5': 0, '4': 0, '3': 0, '2': 0, '1': 0 },
@@ -395,6 +396,41 @@ function AdminForm() {
               </Field>
               <Field label="Regulatory Notes" hint="Any known legal/regulatory risk flags for this clinic's jurisdiction">
                 <Textarea value={form.regulatoryNotes ?? ''} onChange={(v) => set('regulatoryNotes', v)} rows={2} />
+              </Field>
+            </div>
+          </section>
+
+          {/* Procedure Details */}
+          <section>
+            <h2 className="text-base font-semibold text-gray-800 mb-4 pb-2 border-b">Procedure Details</h2>
+            <div className="space-y-4">
+              <Field label="Method of Application" hint="How cells are administered (route, technique, combined therapies)">
+                <Textarea value={form.procedure.method} onChange={(v) => set('procedure', { ...form.procedure, method: v })} rows={2} />
+              </Field>
+              <div className="grid grid-cols-2 gap-4">
+                <Field label="Min Duration (days)" hint="Leave blank if not publicly specified">
+                  <Input
+                    type="number"
+                    value={form.procedure.durationDays?.min ?? ''}
+                    onChange={(v) => set('procedure', {
+                      ...form.procedure,
+                      durationDays: v === '' ? undefined : { min: parseInt(v) || 0, max: form.procedure.durationDays?.max ?? (parseInt(v) || 0) },
+                    })}
+                  />
+                </Field>
+                <Field label="Max Duration (days)">
+                  <Input
+                    type="number"
+                    value={form.procedure.durationDays?.max ?? ''}
+                    onChange={(v) => set('procedure', {
+                      ...form.procedure,
+                      durationDays: v === '' ? undefined : { min: form.procedure.durationDays?.min ?? (parseInt(v) || 0), max: parseInt(v) || 0 },
+                    })}
+                  />
+                </Field>
+              </div>
+              <Field label="Duration Notes" hint="Context or caveats on the treatment schedule">
+                <Textarea value={form.procedure.durationNotes ?? ''} onChange={(v) => set('procedure', { ...form.procedure, durationNotes: v })} rows={2} />
               </Field>
             </div>
           </section>

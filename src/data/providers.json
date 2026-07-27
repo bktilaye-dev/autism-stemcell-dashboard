@@ -71,6 +71,10 @@
     "patientsTotal": 0,
     "autismPatientCount": 0,
     "yearsOperating": 15,
+    "procedure": {
+      "method": "IV infusion of CL2020 (Muse cell product) in clinical-trial settings only — not a commercial autism protocol.",
+      "durationNotes": "Not applicable — CL2020 is investigational only and has no commercial autism treatment schedule."
+    },
     "contact": {
       "website": "https://www.lsi-medience.com/en/",
       "email": ""
@@ -154,6 +158,11 @@
     "patientsTotal": 500,
     "autismPatientCount": 300,
     "yearsOperating": 20,
+    "procedure": {
+      "method": "IV infusion of umbilical cord (Wharton's Jelly) mesenchymal stem cells, given as 4–6 separate infusions.",
+      "durationDays": { "min": 7, "max": 14 },
+      "durationNotes": "Infusions are typically spread across 1–2 weeks, per the clinic's published protocol."
+    },
     "contact": {
       "website": "https://www.cellmedicine.com",
       "email": "info@cellmedicine.com",
@@ -233,6 +242,10 @@
     "patientsTotal": 200,
     "autismPatientCount": 80,
     "yearsOperating": 8,
+    "procedure": {
+      "method": "IV infusion of umbilical cord MSCs and/or authorized Dezawa MuseCells®, across 2–4 sessions.",
+      "durationNotes": "Not publicly specified — the clinic markets day-trip or short-stay protocols, but no exact total-day figure is published; confirm the schedule directly."
+    },
     "contact": {
       "website": "https://r3stemcell.com/mexico/",
       "email": "info@r3stemcell.com"
@@ -326,6 +339,10 @@
     "patientsTotal": 800,
     "autismPatientCount": 300,
     "yearsOperating": 18,
+    "procedure": {
+      "method": "Intrathecal injection (directly into spinal fluid) of the patient's own bone marrow-derived MSCs, combined with IV infusion.",
+      "durationNotes": "Not publicly specified in exact days — cost notes indicate the price typically includes a hospital stay; confirm the exact schedule directly with the clinic."
+    },
     "contact": {
       "website": "https://www.neurogeninstitute.com",
       "email": "info@neurogeninstitute.com",
@@ -407,6 +424,10 @@
     "patientsTotal": 400,
     "autismPatientCount": 100,
     "yearsOperating": 12,
+    "procedure": {
+      "method": "IV infusion and/or intrathecal injection of umbilical cord or bone marrow-derived cells, depending on the protocol chosen.",
+      "durationNotes": "Not publicly specified — session count (1–3) is published but total treatment duration in days is not; confirm directly with the clinic."
+    },
     "contact": {
       "website": "https://www.stemrxbioscience.com",
       "email": "dr.mahajan@stemrxbioscience.com"
@@ -475,6 +496,10 @@
     "patientsTotal": 300,
     "autismPatientCount": 90,
     "yearsOperating": 10,
+    "procedure": {
+      "method": "IV infusion of allogeneic umbilical cord MSCs.",
+      "durationNotes": "Not publicly specified — session count (2–4) is published but total treatment duration in days is not; confirm directly with the clinic."
+    },
     "contact": {
       "website": "https://www.advancells.com",
       "email": "info@advancells.com"
@@ -554,6 +579,11 @@
     "patientsTotal": 10000,
     "autismPatientCount": 800,
     "yearsOperating": 20,
+    "procedure": {
+      "method": "IV infusion and intrathecal injection of umbilical cord blood (HSC) and umbilical cord MSCs (6–8 injections, 170–340 million cells total), combined with FMT delivered via colonoscopy/endoscopy, enema, or oral enteric capsules.",
+      "durationDays": { "min": 8, "max": 14 },
+      "durationNotes": "Inpatient program length as published on the clinic's own site."
+    },
     "contact": {
       "website": "https://beikecelltherapy.com",
       "email": "info@beikecelltherapy.com"
@@ -621,6 +651,10 @@
     "patientsTotal": 600,
     "autismPatientCount": 400,
     "yearsOperating": 15,
+    "procedure": {
+      "method": "IV infusion of the patient's own (autologous) bone marrow-derived stem cells, or previously banked umbilical cord blood.",
+      "durationNotes": "Not publicly specified — 1–2 sessions are published but total treatment duration in days is not; confirm directly with the clinic."
+    },
     "contact": {
       "website": "https://www.autism-mmc.com",
       "email": "info@mardaleishvili.com"
@@ -708,6 +742,10 @@
     "patientsTotal": 2000,
     "autismPatientCount": 461,
     "yearsOperating": 12,
+    "procedure": {
+      "method": "IV infusion of umbilical cord tissue MSCs and placental MSCs, plus exosome therapy.",
+      "durationNotes": "Not publicly specified — 1–3 sessions are published but total treatment duration in days is not; confirm directly with the clinic."
+    },
     "contact": {
       "website": "https://www.startstemcells.com/autism-treatment-therapy.html",
       "email": "info@startstemcells.com"
@@ -775,6 +813,11 @@
     "patientsTotal": 3000,
     "autismPatientCount": 600,
     "yearsOperating": 30,
+    "procedure": {
+      "method": "IV, subcutaneous, and intranasal administration of human fetal stem cells, combined with exosome therapy and hyperbaric oxygen sessions.",
+      "durationDays": { "min": 2, "max": 2 },
+      "durationNotes": "2-day intensive program, per the clinic's own site; includes hotel-clinic transfers."
+    },
     "contact": {
       "website": "https://www.emcell.com/treatments/autizm/",
       "email": "info@emcell.com"
@@ -851,6 +894,10 @@
     "patientsTotal": 100,
     "autismPatientCount": 60,
     "yearsOperating": 3,
+    "procedure": {
+      "method": "Intranasal (endonasal) and IV administration of fetal stem cells combined with MUSE cells and exosomes, plus a GCMF peptide to support cell engraftment.",
+      "durationNotes": "Not publicly specified — 1–2 sessions are published but total treatment duration in days is not; confirm directly with the clinic."
+    },
     "contact": {
       "website": "https://stemplus.clinic/disease-treatment/autism/",
       "email": ""
@@ -925,6 +972,10 @@
     "patientsTotal": 500,
     "autismPatientCount": 150,
     "yearsOperating": 8,
+    "procedure": {
+      "method": "IV infusion of fresh (non-frozen) umbilical cord MSCs, combined with neuromodulation and structured rehabilitation.",
+      "durationNotes": "Not publicly specified — 1–3 sessions are published but total treatment duration in days is not; confirm directly with the clinic."
+    },
     "contact": {
       "website": "https://veritaneuro.com/conditions/autism/",
       "email": "info@veritaneuro.com"
@@ -986,6 +1037,10 @@
     "patientsTotal": 0,
     "autismPatientCount": 0,
     "yearsOperating": 5,
+    "procedure": {
+      "method": "IV infusion of umbilical cord MSCs, delivered at the Frankfurt partner facility (not in Switzerland).",
+      "durationNotes": "Not publicly specified — 1–2 sessions are published but total treatment duration in days is not; confirm directly with the clinic."
+    },
     "contact": {
       "website": "https://swiss-health-clinic.ch/stem-cell-therapy-for-autism/",
       "email": ""
@@ -1053,6 +1108,11 @@
     "patientsTotal": 300,
     "autismPatientCount": 120,
     "yearsOperating": 7,
+    "procedure": {
+      "method": "IV infusion and/or intrathecal injection of umbilical cord MSCs.",
+      "durationDays": { "min": 1, "max": 1 },
+      "durationNotes": "Each session lasts 3–4 hours and is completed same-day, per the clinic's site; 1–3 sessions total (spacing between sessions not specified)."
+    },
     "contact": {
       "website": "https://www.istanbulstemcell.com/autism",
       "email": ""
@@ -1120,6 +1180,10 @@
     "patientsTotal": 150,
     "autismPatientCount": 150,
     "yearsOperating": 4,
+    "procedure": {
+      "method": "IV infusion of live umbilical cord MSCs combined with exosome therapy.",
+      "durationNotes": "Not publicly specified — 1–2 sessions are published but total treatment duration in days is not; the clinic offers transparent pricing/scheduling at consultation."
+    },
     "contact": {
       "website": "https://autismstemcare.com",
       "email": ""
@@ -1199,6 +1263,10 @@
     "patientsTotal": 4000,
     "autismPatientCount": 250,
     "yearsOperating": 9,
+    "procedure": {
+      "method": "IV infusion of umbilical cord MSCs and exosomes, with intrathecal delivery offered for select patients.",
+      "durationNotes": "Not publicly specified — 2–4 sessions are published but total treatment duration in days is not; protocol is individualized per patient after consultation."
+    },
     "contact": {
       "website": "https://bioxcellerator.com",
       "email": "info@bioxcellerator.com",
@@ -1285,6 +1353,10 @@
     "patientsTotal": 0,
     "autismPatientCount": 0,
     "yearsOperating": 9,
+    "procedure": {
+      "method": "IV infusion (with intrathecal delivery available for some protocols) of umbilical cord and placental MSCs, plus exosomes and MUSE cells.",
+      "durationNotes": "Not publicly specified — 1–3 sessions are published but total treatment duration in days is not; protocol is individualized per patient."
+    },
     "contact": {
       "website": "https://regenamex.com",
       "email": "info@regenamex.com",
@@ -1361,6 +1433,10 @@
     },
     "patientsTotal": 2000,
     "yearsOperating": 12,
+    "procedure": {
+      "method": "IV infusion and/or intrathecal injection of MSCs sourced from umbilical cord, bone marrow, or adipose tissue (the clinic does not disclose which source is used for its autism protocol specifically).",
+      "durationNotes": "Not publicly specified — 1–2 sessions are published but total treatment duration in days is not; pricing and scheduling are only given after a free consultation."
+    },
     "contact": {
       "website": "https://lindenclinics.com"
     },
@@ -1418,6 +1494,11 @@
     },
     "patientsTotal": 0,
     "autismPatientCount": 0,
+    "procedure": {
+      "method": "IV infusion of Wharton's Jelly umbilical cord MSCs, performed at Regeneration Clinic itself. FMT (Stage A, via partner \"Aflora\") and MeRT/neurofeedback (Stage B, via partner \"BTC\") are delivered separately as part of the bundled \"ABC Protocol\" — no FMT delivery method is disclosed.",
+      "durationDays": { "min": 3, "max": 7 },
+      "durationNotes": "3–7 days is the clinic's general stated range for the stem-cell-only portion (1–5 infusions). The joint \"ABC Protocol\" microsite separately describes the full combined program (with FMT + MeRT) as spanning roughly 5 weeks — a discrepancy between the clinic's own pages that isn't resolved publicly."
+    },
     "contact": {
       "website": "https://regeneratepanama.com",
       "email": "info@regeneratepanama.com",
@@ -1495,6 +1576,10 @@
     },
     "patientsTotal": 4000,
     "yearsOperating": 14,
+    "procedure": {
+      "method": "IV infusion of umbilical cord MSCs and/or bone marrow cells (exact delivery route not specified on the clinic's site). FMT is offered as a separate service via colonoscopy, enema, capsules, or nasogastric tube.",
+      "durationNotes": "Not publicly specified — a patient testimonial references a \"4th Dose,\" implying multiple sessions, but no total day count or dosing schedule is published."
+    },
     "contact": {
       "website": "https://chaitanyastemcell.com",
       "phone": "+91-9011111222"
