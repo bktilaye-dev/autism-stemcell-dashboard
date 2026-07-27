@@ -7,8 +7,12 @@
       "country": "Japan",
       "countryCode": "JP",
       "city": "Sendai (Tohoku University)",
+      "address": "Life Science Institute, Inc. (LSII) HQ: Palace Building, 1-1 Marunouchi 1-chome, Chiyoda-ku, Tokyo 100-8251, Japan. Sendai/Tohoku University is a clinical-trial research partner site, not an LSII office.",
       "coordinates": { "lat": 38.2682, "lng": 140.8694 }
     },
+    "branches": [
+      { "city": "Kawasaki", "country": "Japan", "address": "Tonomachi CPC, Life Innovation Center, 3-25-22 Tonomachi, Kawasaki-ku, Kawasaki, Kanagawa 210-0821, Japan", "note": "Cell Processing Center" }
+    ],
     "cellTypes": ["MUSE_dezawa"],
     "deliveryRoutes": ["iv"],
     "cellSource": "allogeneic",
@@ -81,6 +85,7 @@
       "country": "Panama",
       "countryCode": "PA",
       "city": "Panama City",
+      "address": "BICSA Financial Center, 63rd Floor, Panama City, Panama",
       "coordinates": { "lat": 8.9936, "lng": -79.5197 }
     },
     "cellTypes": ["umbilical_cord_msc"],
@@ -164,8 +169,13 @@
       "country": "Mexico",
       "countryCode": "MX",
       "city": "Tijuana",
+      "address": "David Alfaro Siqueiros 2643-Local 106, Zona Urbana Rio Tijuana, 22010 Tijuana, B.C., Mexico",
       "coordinates": { "lat": 32.5149, "lng": -117.0382 }
     },
+    "branches": [
+      { "city": "Cancún", "country": "Mexico", "address": "Plaza Azuna, Av. Sayil 1, Zona Hotelera, 77500 Cancún, Q.R., México" },
+      { "city": "Puerto Vallarta", "country": "Mexico", "address": "Joya Hospital #2406, Paseo de los Cocoteros corner Paseo de las Garzas, Nuevo Vallarta, 63732 Riviera Nayarit, Nay., Mexico" }
+    ],
     "cellTypes": ["umbilical_cord_msc", "MUSE_dezawa"],
     "deliveryRoutes": ["iv"],
     "cellSource": "allogeneic",
@@ -237,6 +247,7 @@
       "country": "India",
       "countryCode": "IN",
       "city": "Mumbai",
+      "address": "NeuroGen Brain & Spine Institute, Stem Asia Hospital & Research Centre, Plot no. 19, Sector 40, Next to Sea Woods Grand Central Station (W), Opp. Konkan Rail Vihar, Off. Palm Beach Road, Nerul (West), Navi Mumbai – 400706, India",
       "coordinates": { "lat": 19.0760, "lng": 72.8777 }
     },
     "cellTypes": ["bone_marrow"],
@@ -330,8 +341,14 @@
       "country": "India",
       "countryCode": "IN",
       "city": "Mumbai",
+      "address": "Dr. Mahajan's Hospital & ITC, R-831, Thane–Belapur Rd, next to Shell Petrol Pump, T.T.C. Industrial Area, Rabale, Navi Mumbai, Maharashtra 400708",
       "coordinates": { "lat": 19.1136, "lng": 72.8697 }
     },
+    "branches": [
+      { "city": "Hyderabad", "country": "India", "note": "City/country only — no street address published" },
+      { "city": "Accra", "country": "Ghana", "note": "City/country only — no street address published" },
+      { "city": "Port Louis", "country": "Mauritius", "note": "City/country only — no street address published" }
+    ],
     "cellTypes": ["umbilical_cord_msc", "bone_marrow"],
     "deliveryRoutes": ["iv", "intrathecal"],
     "cellSource": "both",
@@ -404,6 +421,7 @@
       "country": "India",
       "countryCode": "IN",
       "city": "New Delhi",
+      "address": "A-102, Sector-V, Noida-201301, UP, India (Noida is within the Delhi NCR metro area)",
       "coordinates": { "lat": 28.7041, "lng": 77.1025 }
     },
     "cellTypes": ["umbilical_cord_msc"],
@@ -471,8 +489,12 @@
       "country": "China",
       "countryCode": "CN",
       "city": "Shenzhen",
+      "address": "16th Floor, Beike Building, No. 59 Gaoxin South Ninth Road, Yuehai Street, Nanshan District, Shenzhen, China 518057",
       "coordinates": { "lat": 22.5431, "lng": 114.0579 }
     },
+    "branches": [
+      { "city": "Bangkok", "country": "Thailand", "address": "BBH Hospital, 255 Sukhumvit 107, Samut Prakan 10270, Thailand" }
+    ],
     "cellTypes": ["umbilical_cord_blood", "umbilical_cord_msc"],
     "deliveryRoutes": ["iv", "intrathecal"],
     "cellSource": "allogeneic",
@@ -546,6 +568,7 @@
       "country": "Georgia",
       "countryCode": "GE",
       "city": "Tbilisi",
+      "address": "Levana Charkviani St., Tbilisi, Georgia (exact building number not published on the official contact page)",
       "coordinates": { "lat": 41.6938, "lng": 44.8015 }
     },
     "cellTypes": ["hematopoietic", "bone_marrow"],
@@ -607,13 +630,19 @@
   {
     "id": "swiss-medica-serbia",
     "name": "Swiss Medica (Star Stem Cells)",
-    "overview": "Swiss Medica operates under the brand Star Stem Cells and has clinics in Belgrade (Serbia), Frankfurt (Germany), and Zurich (Switzerland). Their autism protocol uses umbilical cord tissue MSCs, placental MSCs, and exosome therapy. They also claim an 'official collaboration with Dezawa MuseCells®', displaying a collaboration certificate on their website. They have published an internal clinical review of 461 children with autism showing improvements in social interaction, motor skills, and behavioral development, with approximately 80% of families reporting noticeable improvements within 3–6 months.",
+    "overview": "Swiss Medica operates under the brand Star Stem Cells and has locations in Belgrade (Serbia), Rogaška Slatina (Slovenia), and Goldach/St. Gallen (Switzerland) — note this corrects an earlier assumption that their network included Frankfurt and Zurich, which are not listed on the official site. Their autism protocol uses umbilical cord tissue MSCs, placental MSCs, and exosome therapy. They also claim an 'official collaboration with Dezawa MuseCells®', displaying a collaboration certificate on their website. They have published an internal clinical review of 461 children with autism showing improvements in social interaction, motor skills, and behavioral development, with approximately 80% of families reporting noticeable improvements within 3–6 months.",
     "location": {
       "country": "Serbia",
       "countryCode": "RS",
       "city": "Belgrade",
+      "address": "Ugrinovacki put 16a, Belgrade, Serbia, 11283 (clinic)",
       "coordinates": { "lat": 44.7866, "lng": 20.4489 }
     },
+    "branches": [
+      { "city": "Belgrade", "country": "Serbia", "address": "Slovačka 90, Belgrade, Serbia, 11271", "note": "Hospital (surgical/inpatient) location" },
+      { "city": "Rogaška Slatina", "country": "Slovenia", "address": "Zdraviliški trg 3, Rogaška Slatina, 3250 Slovenia" },
+      { "city": "Goldach", "country": "Switzerland", "address": "St. Gallerstrasse 23/25, Goldach, St. Gallen, Switzerland, 9403" }
+    ],
     "cellTypes": ["umbilical_cord_msc", "placental", "exosomes", "MUSE_dezawa"],
     "deliveryRoutes": ["iv"],
     "cellSource": "allogeneic",
@@ -693,6 +722,7 @@
       "country": "Ukraine",
       "countryCode": "UA",
       "city": "Kyiv",
+      "address": "40a Metrolohichna Street, Kyiv 03143, Ukraine",
       "coordinates": { "lat": 50.4501, "lng": 30.5234 }
     },
     "cellTypes": ["fetal", "exosomes"],
@@ -759,8 +789,12 @@
       "country": "Ukraine",
       "countryCode": "UA",
       "city": "Kyiv",
+      "address": "11 Volodymyrska St., Kyiv, Ukraine",
       "coordinates": { "lat": 50.4600, "lng": 30.5200 }
     },
+    "branches": [
+      { "city": "Sofia", "country": "Bulgaria", "address": "32 Elemag St., Izgrev Res. Complex, Izgrev District, 1113 Sofia, Bulgaria", "note": "The clinic's own \"About Us\" page actually lists Sofia, not Kyiv, as the primary address — this appears to be a dual-location operation; verify which site treats patients before booking." }
+    ],
     "cellTypes": ["fetal", "MUSE_dezawa", "exosomes"],
     "deliveryRoutes": ["intranasal", "iv"],
     "cellSource": "allogeneic",
@@ -831,8 +865,15 @@
       "country": "Thailand",
       "countryCode": "TH",
       "city": "Bangkok",
+      "address": "Thonburi Bamrungmuang Hospital, Floor 3, Physical Rehabilitation Department, 611 Bamrung Mueang Rd, Khlong Maha Nak, Pom Prap Sattru Phai, Bangkok 10100, Thailand",
       "coordinates": { "lat": 13.7563, "lng": 100.5018 }
     },
+    "branches": [
+      { "city": "Zapopan (Guadalajara)", "country": "Mexico", "address": "Hospital Real San Jose Valle Real, Torre de Consultorios, Av. Central Guillermo Gonzalez Camarena 911-Piso 1, lado B, Residencial Poniente, 45136 Zapopan, Jalisco, Mexico" },
+      { "city": "Dubai", "country": "UAE", "note": "Treatment center opening within Fakeeh University Hospital, early 2026 — no street address published yet" },
+      { "city": "Calgary", "country": "Canada", "note": "Partnership with Synaptic Neuro Rehabilitation for follow-up/remapping services — no street address published" },
+      { "city": "Lviv", "country": "Ukraine", "note": "Partnership with UNBROKEN Center, pilot program announced for Oct 2026 — no street address published" }
+    ],
     "cellTypes": ["umbilical_cord_msc"],
     "deliveryRoutes": ["iv"],
     "cellSource": "allogeneic",
@@ -893,13 +934,17 @@
   {
     "id": "swiss-health-clinic",
     "name": "Swiss Health Clinic",
-    "overview": "Swiss Health Clinic is based in Zurich, Switzerland and coordinates regenerative stem cell therapy for autism through its authorized partner clinic in Frankfurt, Germany. They offer a non-surgical, medically supervised MSC-based programme for children and adults with ASD. The treatment works by reducing neuroinflammation, balancing immune function, and supporting brain cell communication through growth factor release. Their protocol is individualized based on the child's age, symptom profile, and severity. Switzerland has strict regulations on stem cell therapy, so actual treatments are delivered at the Frankfurt partner facility.",
+    "overview": "Swiss Health Clinic AG is registered in Schaffhausen, Switzerland (not Zurich, despite earlier assumptions) and coordinates regenerative stem cell therapy for autism through its authorized partner clinic in Frankfurt, Germany. They offer a non-surgical, medically supervised MSC-based programme for children and adults with ASD. The treatment works by reducing neuroinflammation, balancing immune function, and supporting brain cell communication through growth factor release. Their protocol is individualized based on the child's age, symptom profile, and severity. Switzerland has strict regulations on stem cell therapy, so actual treatments are delivered at the Frankfurt partner facility.",
     "location": {
       "country": "Switzerland",
       "countryCode": "CH",
-      "city": "Zurich (treatment in Frankfurt)",
-      "coordinates": { "lat": 47.3769, "lng": 8.5417 }
+      "city": "Schaffhausen (treatment in Frankfurt)",
+      "address": "Stauffacherstr. 36, CH-8200 Schaffhausen, Switzerland — this is Swiss Health Clinic AG's actual registered address; despite the brand's Zurich-adjacent positioning, no Zurich office is published on their site",
+      "coordinates": { "lat": 47.6970, "lng": 8.6318 }
     },
+    "branches": [
+      { "city": "Frankfurt am Main", "country": "Germany", "note": "Treatment delivered here via a partner facility (referenced as \"Advanced Longevity Center\" / \"Advanced Medicine Center\" in patient testimonials) — no street address publicly disclosed" }
+    ],
     "cellTypes": ["umbilical_cord_msc"],
     "deliveryRoutes": ["iv"],
     "cellSource": "allogeneic",
@@ -955,6 +1000,7 @@
       "country": "Turkey",
       "countryCode": "TR",
       "city": "Istanbul",
+      "address": "Suadiye, Bağdat Cad. No: 393 Kat: 1, 34740 Kadıköy/İstanbul, Türkiye",
       "coordinates": { "lat": 41.0082, "lng": 28.9784 }
     },
     "cellTypes": ["umbilical_cord_msc"],
@@ -1002,7 +1048,7 @@
       "labCertifications": [],
       "patientDocuments": [],
       "independentlyVerified": false,
-      "notes": "Turkish clinics vary widely in documentation standards. The clinic references 'latest techniques and protocols.' Verify lab GMP certification and ask for cell viability documentation before treatment. Turkey's medical tourism regulation is evolving."
+      "notes": "Turkish clinics vary widely in documentation standards. The clinic references 'latest techniques and protocols.' Verify lab GMP certification and ask for cell viability documentation before treatment. Turkey's medical tourism regulation is evolving. Note: Autism Stem Care (ASC), also listed on this dashboard, publishes the identical street address (Bağdat Cad. No: 393 Kat: 1, Kadıköy/İstanbul) — strongly suggesting the two are sister brands operating from the same premises rather than fully independent facilities. Worth clarifying with either clinic directly."
     },
     "patientsTotal": 300,
     "autismPatientCount": 120,
@@ -1021,6 +1067,7 @@
       "country": "Turkey",
       "countryCode": "TR",
       "city": "Istanbul",
+      "address": "Suadiye, Bağdat Cad. No: 393 Kat: 1, 34740 Kadıköy/İstanbul, Türkiye",
       "coordinates": { "lat": 41.0150, "lng": 28.9700 }
     },
     "cellTypes": ["umbilical_cord_msc", "exosomes"],
@@ -1068,7 +1115,7 @@
       "labCertifications": [],
       "patientDocuments": [],
       "independentlyVerified": false,
-      "notes": "Autism-specialized clinic; claims GMP-grade sourcing. Transparent pricing is positive but lab certification documentation not publicly available. Given autism-only focus, worth requesting their specific cell CoA and lab certification during consultation."
+      "notes": "Autism-specialized clinic; claims GMP-grade sourcing. Transparent pricing is positive but lab certification documentation not publicly available. Given autism-only focus, worth requesting their specific cell CoA and lab certification during consultation. Note: Istanbul Stem Cell Clinic, also listed on this dashboard, publishes the identical street address (Bağdat Cad. No: 393 Kat: 1, Kadıköy/İstanbul) — strongly suggesting the two are sister brands operating from the same premises rather than fully independent facilities. Worth clarifying with either clinic directly."
     },
     "patientsTotal": 150,
     "autismPatientCount": 150,
@@ -1087,8 +1134,12 @@
       "country": "Colombia",
       "countryCode": "CO",
       "city": "Medellín",
+      "address": "Torre Medica 2, Office 944, CRA. 25A #1A SUR-45, Medellín, Antioquia, Colombia, 050022",
       "coordinates": { "lat": 6.2088, "lng": -75.5674 }
     },
+    "branches": [
+      { "city": "Scottsdale", "country": "USA", "address": "4900 N. Scottsdale Rd, Ste 3700, Scottsdale, AZ 85251-7681", "note": "Administrative/corporate office only — no treatments performed here; stem cell therapy is not FDA-approved in the US" }
+    ],
     "cellTypes": ["umbilical_cord_msc", "exosomes"],
     "deliveryRoutes": ["iv", "intrathecal"],
     "cellSource": "allogeneic",
@@ -1163,8 +1214,15 @@
       "country": "Mexico",
       "countryCode": "MX",
       "city": "Puerto Vallarta",
+      "address": "Calle Havre 239, Office #17, Versalles, 48310 Puerto Vallarta, Jalisco, Mexico",
       "coordinates": { "lat": 20.6444, "lng": -105.2285 }
     },
+    "branches": [
+      { "city": "Tijuana", "country": "Mexico", "note": "No street address published" },
+      { "city": "Los Angeles", "country": "USA", "note": "Consultation location only — no street address published" },
+      { "city": "Houston", "country": "USA", "note": "Consultation location only — no street address published" },
+      { "city": "Toronto", "country": "Canada", "note": "Consultation location only — no street address published" }
+    ],
     "cellTypes": ["umbilical_cord_msc", "placental", "exosomes", "MUSE_dezawa"],
     "deliveryRoutes": ["iv", "intrathecal"],
     "cellSource": "allogeneic",
@@ -1242,6 +1300,7 @@
       "country": "Turkey",
       "countryCode": "TR",
       "city": "Istanbul",
+      "address": "Teşvikiye, Hakkı Yeten Cd. No:13, 34365 Şişli/İstanbul, Türkiye",
       "coordinates": { "lat": 41.0082, "lng": 28.9784 }
     },
     "cellTypes": ["umbilical_cord_msc", "bone_marrow", "adipose"],
@@ -1315,6 +1374,7 @@
       "country": "Panama",
       "countryCode": "PA",
       "city": "Panama City",
+      "address": "Sortis Business Tower, Suite 4 (address also cited as Suite 4-i and \"Oficina 13F, Calle 57 Este, Obarrio\" on different pages — exact suite is inconsistent across the clinic's own site), Panamá",
       "coordinates": { "lat": 8.988, "lng": -79.520 }
     },
     "cellTypes": ["umbilical_cord_msc"],
@@ -1373,6 +1433,7 @@
       "country": "India",
       "countryCode": "IN",
       "city": "Pune",
+      "address": "CTS 1420, near Shaniwarwada, Kasba Peth, Pune 411037 (the clinic's own contact page and other listings inconsistently give the pincode as 411011)",
       "coordinates": { "lat": 18.5212, "lng": 73.8595 }
     },
     "cellTypes": ["umbilical_cord_msc", "bone_marrow"],

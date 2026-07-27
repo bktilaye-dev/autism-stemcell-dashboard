@@ -91,6 +91,13 @@ export interface MuseCellClaim {
   notes: string
 }
 
+export interface Branch {
+  city: string
+  country: string
+  address?: string
+  note?: string
+}
+
 export interface Provider {
   id: string
   name: string
@@ -98,8 +105,10 @@ export interface Provider {
     country: string
     countryCode: string
     city: string
+    address?: string
     coordinates: { lat: number; lng: number }
   }
+  branches?: Branch[]
   cellTypes: CellType[]
   deliveryRoutes: DeliveryRoute[]
   cellSource: CellSource

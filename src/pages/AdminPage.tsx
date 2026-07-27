@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import type { Provider, CellType, DeliveryRoute, CellSource, EvidenceGrade, StudyDesign, CoALevel } from '../types/provider'
+import type { Provider, CellType, DeliveryRoute, CellSource, EvidenceGrade, StudyDesign, CoALevel, Branch } from '../types/provider'
 
 const ADMIN_HASH = '8e0a14af461b56e5e37c8cc9f25a65a3b02e0a4f2b8d7c6e1f3a9b5d2c8e4f7' // sha256("noahsdad2024")
 
@@ -59,7 +59,8 @@ const emptyProvider = (): Omit<Provider, 'humanCellsOnly'> => ({
   id: '',
   name: '',
   overview: '',
-  location: { country: '', countryCode: '', city: '', coordinates: { lat: 0, lng: 0 } },
+  location: { country: '', countryCode: '', city: '', address: '', coordinates: { lat: 0, lng: 0 } },
+  branches: [],
   cellTypes: [],
   deliveryRoutes: [],
   cellSource: 'allogeneic',
@@ -245,6 +246,50 @@ function AdminForm() {
               <Field label="Longitude" hint="Decimal degrees (e.g. -79.5197)">
                 <Input type="number" value={form.location.coordinates.lng} onChange={(v) => set('location', { ...form.location, coordinates: { ...form.location.coordinates, lng: parseFloat(v) || 0 } })} />
               </Field>
+              <div className="col-span-2">
+                <Field label="Street Address" hint="Full street address of the primary/main location, as published by the clinic">
+                  <Textarea value={form.location.address ?? ''} onChange={(v) => set('location', { ...form.location, address: v })} rows={2} />
+                </Field>
+              </div>
+            </div>
+          </section>
+
+          {/* Branches */}
+          <section>
+            <h2 className="text-base font-semibold text-gray-800 mb-4 pb-2 border-b">Other Branch Locations</h2>
+            <div className="space-y-3">
+              {(form.branches ?? []).map((b, i) => (
+                <div key={i} className="grid grid-cols-2 gap-3 border border-gray-200 rounded-lg p-3 relative">
+                  <button
+                    onClick={() => set('branches', (form.branches ?? []).filter((_, j) => j !== i))}
+                    className="absolute top-2 right-2 text-xs text-red-500 hover:text-red-700"
+                  >
+                    Remove
+                  </button>
+                  <Field label="City">
+                    <Input value={b.city} onChange={(v) => set('branches', (form.branches ?? []).map((x, j) => j === i ? { ...x, city: v } : x))} />
+                  </Field>
+                  <Field label="Country">
+                    <Input value={b.country} onChange={(v) => set('branches', (form.branches ?? []).map((x, j) => j === i ? { ...x, country: v } : x))} />
+                  </Field>
+                  <div className="col-span-2">
+                    <Field label="Address (optional)">
+                      <Input value={b.address ?? ''} onChange={(v) => set('branches', (form.branches ?? []).map((x, j) => j === i ? { ...x, address: v } : x))} />
+                    </Field>
+                  </div>
+                  <div className="col-span-2">
+                    <Field label="Note (optional)" hint="e.g. 'consultation only, no street address published'">
+                      <Input value={b.note ?? ''} onChange={(v) => set('branches', (form.branches ?? []).map((x, j) => j === i ? { ...x, note: v } : x))} />
+                    </Field>
+                  </div>
+                </div>
+              ))}
+              <button
+                onClick={() => set('branches', [...(form.branches ?? []), { city: '', country: '' } as Branch])}
+                className="text-sm text-blue-600 hover:underline"
+              >
+                + Add branch location
+              </button>
             </div>
           </section>
 

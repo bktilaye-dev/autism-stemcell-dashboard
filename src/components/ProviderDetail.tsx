@@ -215,6 +215,30 @@ export function ProviderDetail({ provider }: Props) {
             )}
           </div>
 
+          {/* Locations */}
+          <div>
+            <h3 className="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-2">Locations</h3>
+            <div className="space-y-2">
+              <div className="bg-gray-50 rounded-lg p-3 border border-gray-200">
+                <div className="text-sm font-medium text-gray-800">{provider.location.city}, {provider.location.country}</div>
+                {provider.location.address && (
+                  <p className="text-sm text-gray-600 mt-1 leading-relaxed">{provider.location.address}</p>
+                )}
+              </div>
+              {provider.branches && provider.branches.length > 0 && (
+                <div className="space-y-2">
+                  {provider.branches.map((b, i) => (
+                    <div key={i} className="bg-gray-50 rounded-lg p-3 border border-gray-200">
+                      <div className="text-sm font-medium text-gray-800">{b.city}, {b.country}</div>
+                      {b.address && <p className="text-sm text-gray-600 mt-1 leading-relaxed">{b.address}</p>}
+                      {b.note && <p className="text-xs text-gray-500 mt-1 italic leading-relaxed">{b.note}</p>}
+                    </div>
+                  ))}
+                </div>
+              )}
+            </div>
+          </div>
+
           {/* Contact */}
           <div>
             <h3 className="text-xs font-semibold text-gray-500 uppercase tracking-wide mb-2">Contact</h3>
