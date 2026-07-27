@@ -479,6 +479,12 @@
     "humanCellsOnly": true,
     "offersFMT": true,
     "fmtNotes": "Confirmed on Beike's own site: their autism page states \"Stem cells, transcranial magnetic stimulation and microbiome therapy in one protocol,\" and they operate a dedicated Fecal Microbiota Transplant (FMT) supportive-therapy page that names autism as a target condition. Most patients receive 5–10 FMT doses, delivered via colonoscope/endoscope solution, enema, or oral enteric capsules. A cited 2017 study of 18 ASD children (ages 7–17) reported an 80% reduction in GI symptoms plus behavioral improvement — the FMT+SCT link is a bundled package of complementary services rather than a single protocol with its own combined outcome data.",
+    "effectiveness": {
+      "communication": { "score": 6.5, "confidence": "low", "source": "provider_report", "notes": "Provider-reported improvements across large patient cohort; no peer-reviewed autism RCT published" },
+      "socialSkills":  { "score": 6, "confidence": "low", "source": "provider_report" },
+      "behavior":      { "score": 6, "confidence": "low", "source": "provider_report" },
+      "selfCare":      { "score": 5.5, "confidence": "none", "source": "unknown" }
+    },
     "evidence": {
       "gradeLevel": "very_low",
       "studyDesign": "case_series",
@@ -833,6 +839,12 @@
     "humanCellsOnly": true,
     "offersFMT": false,
     "fmtNotes": "A third-party medical-tourism aggregator article claims FMT \"can be combined with cell therapy and detoxification treatments offered in Bangkok, Thailand,\" but this is not stated on veritaneuro.com itself. Their own autism page mentions gut microbiome only as a mechanism of the stem cells themselves (\"restoring gut microbiome balance\"), not an actual fecal transplant procedure — not counted as a confirmed FMT offering.",
+    "effectiveness": {
+      "communication": { "score": 6.5, "confidence": "low", "source": "provider_report", "notes": "Fresh UC-MSCs claimed to offer higher potency than frozen alternatives; improvements reported in communication and social engagement" },
+      "socialSkills":  { "score": 6.5, "confidence": "low", "source": "provider_report" },
+      "behavior":      { "score": 6, "confidence": "low", "source": "provider_report" },
+      "selfCare":      { "score": 5, "confidence": "none", "source": "unknown" }
+    },
     "evidence": {
       "gradeLevel": "very_low",
       "studyDesign": "anecdotal",
